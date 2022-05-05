@@ -1,0 +1,15 @@
+$ cat FILE_NAME                                                         # view a single file
+$ cat FILE_NAME FILE_NAME                                               # view multiple files
+$ cat FILE_NAME FILE_NAME FILE_NAME > FILE_NAME                         # multiple files into one single file using the “>”
+$ cat FILE_NAME > /FOLDER_NAME/FILE_NAME                                 
+$ cat FILE_NAME >> FILE_NAME                                            # appending file into another existing file
+$ cat > FILE_NAME                                                       # creating a file with text, Ctrl+d - save & exit, “>” - 1st time & overwrite
+$ cat >> FILE_NAME                                                      # appending text into existing file, Ctrl+d - save & exit
+$ cat -n FILE_NAME                                                      # display including empty lines  
+$ cat -b FILE_NAME                                                      # display only the number of each non-empty line
+
+cat & grep with pipe - The 'cat & grep' command is generally used with pipe (|).
+
+$ cat FILE_NAME | grep NO
+$ cat FILE_NAME | grep WORD_NAME
+$ cat FILE_NAME | grep LETTER

@@ -1,0 +1,14 @@
+It is used to find out number of lines, word count, byte and characters count in the files specified in the file.
+
+$ wc FILE_NAME
+$ wc FILE_NAME FILE_NAME
+$ wc -l FILE_NAME			        (prints the number of lines)
+$ wc -l FILE_NAME FILE_NAME
+$ wc -w FILE_NAME			        (prints the number of words)
+$ wc -w FILE_NAME FILE_NAME
+$ wc -c FILE_NAME			        (print the byte counts)
+$ wc -c FILE_NAME FILE_NAME
+$ wc -m FILE_NAME			        (print the character counts)
+$ wc -m FILE_NAME FILE_NAME   
+$ wc -L FILE_NAME 			        (print the length of longest line)
+$ wc -L FILE_NAME FILE_NAME

@@ -1,0 +1,12 @@
+[configure NAMES, DNS locally using /etc/hosts File]
+$ vi /etc/hosts
+
+IP_ADDRESS                  ALIAS_NAME
+EG: 127.0.0.1               localhost
+EG: 192.168.56.1            server1                     # target system IP_ADDRESS assigning as a NAME
+EG: IP_ADDRESS              www.linux.com               # target system IP_ADDRESS assigning as a Domain NAME
+
+[Checking Status]
+ping server1
+ping -c 4 server1                                       # the ping command output will be print 4 lines
+ping -c 4 www.linux.com                                 # the ping command output will be print 4 lines

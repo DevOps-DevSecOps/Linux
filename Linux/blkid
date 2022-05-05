@@ -1,0 +1,14 @@
+File systems are automatically assigned a universally unique identifier (UUID).
+UUIDs can be used when mounting the file system.
+To display the UUID, the label, and the file system type, use the blkid command.
+
+$ blkid                                                                                     # list of all UUID
+
+$ blkid /dev/xvdf1
+/dev/xvdf1: UUID="41bae7c3-396a-436d-9764-d27d4ca3f17b" TYPE="ext2"
+
+$ blkid /dev/xvdf1
+/dev/xvdf1: UUID="c8e958f4-e5d0-4404-8a9a-2cea24675fcd" SEC_TYPE="ext2" TYPE="ext3"
+
+$ blkid /dev/xvdf1
+/dev/xvdf1: LABEL="LABEL_NAME" UUID="687eb83f-c16f-4fa9-bb49-1621eed3a35d" TYPE="ext4"

@@ -1,0 +1,14 @@
+It is used to find out Users and Groups names and numeric ID’s (UID or GID) of the current user or any other user in the server.
+
+id
+id USER_NAME                                # display UID no, GID no, Group name  
+id -u USER_NAME                             # display UID no
+id -g USER_NAME                             # display GID no
+id -G USER_NAME                             # Print all Group ID’s
+id -ng USER_NAME
+id -gn USER_NAME
+id -nu USER_NAME
+id -nG USER_NAME
+id -r -g USER_NAME
+id -r -u USER_NAME
+id -r -G USER_NAME

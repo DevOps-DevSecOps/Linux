@@ -1,0 +1,5 @@
+$ addgroup GROUP_NAME
+$ delgroup GROUP_NAME
+
+$ groupadd GROUP_NAME
+$ groupdel GROUP_NAME

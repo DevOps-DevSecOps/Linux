@@ -1,0 +1,10 @@
+ps
+ps -e
+ps -ef
+ps -e -f
+ps -elf
+ps -u USER_NAME
+ps -u UID
+ps x
+ps ax
+ps aux

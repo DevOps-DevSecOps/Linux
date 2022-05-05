@@ -1,0 +1,21 @@
+mkswap /swapfile
+mkswap /dev/sdb2
+mkswap -L LABEL_NAME /dev/sdb2
+
+swapon /swapfile
+swapon -v /dev/sdb2
+
+swapon -a
+
+swapon --all
+
+swapon --show
+
+swapon --summary
+
+swapon -s
+
+swapoff -v /swapfile
+swapoff /dev/sdb2
+
+swapoff -a

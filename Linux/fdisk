@@ -1,0 +1,5 @@
+The fdisk stands for Fixed Disk OR Format Disk.
+
+[Commands]
+fdisk -l
+fdisk /dev/sdb

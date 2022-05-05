@@ -1,0 +1,30 @@
+[ext2]
+The default file system type created when using the mkfs command is ext2.
+$ mkfs /dev/xvdd1
+$ mke2fs /dev/xvdd1
+$ mkfs.ext2 /dev/xvdd1
+
+[ext3]
+$ mkfs –t ext3 /dev/xvdd1 
+$ mke2fs –t ext3 /dev/xvdd1 
+$ mkfs.ext3 /dev/xvdd1
+
+[ext4]
+$ mkfs –t ext4 /dev/xvdd1
+$ mke2fs –t ext4 /dev/xvdd1 
+$ mkfs.ext4 /dev/xvdd1
+$ mkfs -t ext4 -L "LABEL_NAME" /dev/xvdf1 
+$ mkfs.ext4 /dev/xvdd1 -v
+
+[vfat]
+$ mkfs.vfat /dev/sdb1
+
+[xfs]
+$ mkfs –t xfs /dev/sdb1
+$ mkfs.xfs /dev/sdb1
+
+To check Format Disk status
+---------------------------
+$ file -sL /dev/sda1
+/dev/sda1: Linux rev 1.0 ext4 filesystem data, UUID=ae7c051f-451b-45ad-80a3-347c70a9de5e                # formatted
+/dev/sda1: data                                                                                         # not formatted

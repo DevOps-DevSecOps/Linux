@@ -1,0 +1,35 @@
+[Key]
+SSH key
+-------
+● The default location would be inside user's home folder under /home/USER_NAME/.ssh OR ~/.ssh
+● The default naming syntax used for the private key will be id_rsa and public key will be id_rsa.pub
+$ ssh-keygen
+Key Type
+--------
+● Create key type with "dsa, ecdsa, ed25519, or rsa"
+● Use -t <key> argument to define the type of the key
+$ ssh-keygen -t dsa
+$ ssh-keygen -t ecdsa
+$ ssh-keygen -t ed25519
+$ ssh-keygen -t rsa
+$ ssh-keygen -t KEY_NAME
+Custom Key
+----------
+● This will create and keep the keys in the current location from where you execute ssh-keygen command 
+● We can also create keys with custom filename using -f KEY_NAME
+$ ssh-keygen
+Enter file in which to save the key (/home/USER_NAME/.ssh/id_rsa): /home/USER_NAME/.ssh/KEY_NAME
+$ ssh-keygen -f KEY_NAME                                
+EG: ssh-keygen -f aws
+$ ssh-keygen -f .ssh/KEY_NAME
+$ ssh-keygen -f ~/.ssh/KEY_NAME
+$ ssh-keygen -f /home/USER_NAME/.ssh/KEY_NAME
+
+[Copy]
+ssh-copy-id USER_NAME@HOSTNAME_IPADDRESS
+ssh-copy-id -i ~/.ssh/KEY_NAME USER_NAME@HOSTNAME_IPADDRESS
+ssh-copy-id -i ~/.ssh/KEY_NAME -p PORT_NO USER_NAME@HOSTNAME_IPADDRESS
+
+[Remote]
+$ ssh -i KEY_NAME USER_NAME@HOSTNAME_IPADDRESS
+$ ssh -i ~/.ssh/KEY_NAME USER_NAME@HOSTNAME_IPADDRESS

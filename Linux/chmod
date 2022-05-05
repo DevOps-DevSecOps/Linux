@@ -1,0 +1,7 @@
+$ chmod +x FILE_NAME
+-rwxrwxr-x 1 ubuntu ubuntu 54 Aug  7 12:08 FILE_NAME
+$ chmod +x .
+$ chmod +rwx FILE_NAME
+$ chmod -rwx FOLDER_NAME
+$ chmod -wx FILE*
+$ chmod +r FOLDER*

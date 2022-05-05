@@ -1,0 +1,27 @@
+$ mv FOLDER_NAME1 FOLDER_NAME2 FOLDER_NAME3
+EG: mv Dir1 Dir2 Dir3               (moving Dir1 Dir2 folders into Dir3 folder)
+
+$ mv FOLDER_NAME1 FOLDER_NAME2
+EG: mv Dir1 Dir2                    (moving Dir1 folder into Dir2 folder)  
+
+$ mv FOLDER_NAME:original FOLDER_NAME:rename
+EG: mv Dir4 Folder4                 (The name of a directory should not be exist in that current location path)
+
+$ mv FOLDER_NAME:original /FOLDER_NAME/FOLDER_NAME:rename
+
+$ mv FOLDER_NAME/FOLDER_NAME:original /FOLDER_NAME/FOLDER_NAME:rename
+
+$ mv /FOLDER_NAME/FOLDER_NAME:original FOLDER_NAME:rename
+
+$ mv FOLDER_NAME/*.EXTENSION FOLDER_NAME/FILE_NAME.EXTENSION
+EG: mv FOLDER_NAME/*.war FOLDER_NAME/FILE_NAME.war
+
+$ mv /FOLDER_NAME/FOLDER_NAME/FOLDER_NAME/{FILE_NAME:original,FILE_NAME:rename}
+
+$ mv FOLDER_NAME/FILE_NAME /FOLDER_NAME/FOLDER_NAME
+
+$ mv FILE_NAME /FOLDER_NAME/FOLDER_NAME
+
+$ mv -v FILE_NAME{NO..NO}* FOLDER_NAME/.
+
+$ mv -v FILE_NAME{NO..NO}.EXTENSION FOLDER_NAME/.

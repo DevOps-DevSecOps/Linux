@@ -1,0 +1,36 @@
+[display ENV]
+$ printenv                                          # displays all the global ENVs
+$ set                                               # display all the ENVs(global,local)
+$ env                                               # display all the global ENVs
+
+[Pipe with ENV]
+$ printenv | grep NAME
+$ set | grep NAME
+$ env | grep NAME
+
+[local ENV]
+$ NAME=VALUE
+$ NAME='VALUE'
+
+[global ENV]
+$ export NAME=VALUE
+$ export NAME='VALUE'
+$ set NAME=VALUE
+$ set NAME='VALUE'
+
+[read ENV]
+$ echo $NAME
+
+[remove ENV]
+$ unset NAME
+
+[Linux ENVs]
+$USER                                       # current users name
+$PATH                                       # search path
+$PWD                                        # path of present working directory
+$HOME                                       # path of home directory
+$HOSTNAME                                   # name of the host
+$LANG                                       # default system language
+$EDITOR                                     # default file editor
+$UID                                        # user ID of current user
+$SHELL                                      # location of current users shell program

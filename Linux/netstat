@@ -1,0 +1,17 @@
+It displays various network related information such as network connections, routing tables, interface.
+
+$ netstat
+$ netstat -a                            (To list all ports and connections)
+$ netstat -at                           (To list all TCP ports)
+$ netstat -au                           (To list all UDP ports)
+$ netstat -l                            (To list only listening ports)
+$ netstat -lt                           (To list all listening TCP ports)
+$ netstat -lu                           (To list all listening UDP ports)
+$ netstat -lx                           (To list all listening UNIX ports) 
+$ netstat -i                            (To list of network interface)
+$ netstat -r                            (Kernel IP Routing Table)
+$ netstat -pt                           (To display the PID)
+$ netstat -an | grep ':PORT_NO'         (Particular Port)
+EG: netstat -an | grep ':80'
+$ netstat -ap | grep SERVICE_NAME       (Particular Service)
+EG: netstat -ap | grep ssh

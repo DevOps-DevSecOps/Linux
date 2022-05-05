@@ -1,0 +1,9 @@
+The locate command in Linux is used to find the files by name. There is two most widely used file searching utilities accessible to users are called find and locate. The locate utility works better and faster than find command counterpart because instead of searching the file system when a file search is initiated, it would look through a database. This database contains bits and parts of files and their corresponding paths on your system. By default, locate command does not check whether the files found in the database still exist and it never reports files created after the most recent update of the relevant database.
+
+$ locate FILE_NAME
+$ locate *.FORMAT
+EG: locate *.pdf 
+EG: locate *.docx
+$ locate -i *FILE_NAME*
+$ locate "*.FORMAT" -n NO			(show NO results for searching of file ending with .FORMAT)
+EG: locate "*.html" -n 20

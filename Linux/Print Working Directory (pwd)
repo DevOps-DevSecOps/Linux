@@ -1,0 +1,3 @@
+It prints the current working directory or simply the directory user is, at present. It prints the current directory name with the complete path starting from root (/).
+
+$ pwd

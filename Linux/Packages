@@ -1,0 +1,16 @@
+[Advanced Package Tool (APT)]
+apt-get update
+apt-get install PACKAGE_NAME
+apt-get install -y PACKAGE_NAME
+apt-get remove PACKAGE_NAME
+apt-get remove --auto-remove PACKAGE_NAME
+apt-get purge PACKAGE_NAME
+apt-get purge --auto-remove PACKAGE_NAME
+sudo apt-get install PACKAGE_NAME
+sudo apt-get install -y PACKAGE_NAME
+sudo apt-get remove PACKAGE_NAME
+sudo apt-get remove --auto-remove PACKAGE_NAME
+sudo apt-get purge PACKAGE_NAME
+sudo apt-get purge --auto-remove PACKAGE_NAME
+
+[Yellowdog Updater, Modified (YUM)]

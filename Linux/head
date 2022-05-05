@@ -1,0 +1,5 @@
+The head command is used to print first 10 lines of a file by default.
+
+$ head FILE_NAME
+$ head -n NO FILE_NAME			(Prints the first NO lines)
+EG: head -n 5 file.txt

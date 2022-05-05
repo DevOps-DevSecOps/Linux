@@ -1,0 +1,5 @@
+It is mostly used to repair the unmounted file system.
+
+fsck /dev/sdb4
+fsck -N /dev/sda1
+e2fsck /dev/sdb4

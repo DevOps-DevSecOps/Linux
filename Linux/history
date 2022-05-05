@@ -1,0 +1,5 @@
+It is used to view the previously executed command.
+
+$ history
+$ history NO                (to show the limited number of commands that executed previously)
+$ history -c                (whole history can be removed)

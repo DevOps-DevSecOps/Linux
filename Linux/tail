@@ -1,0 +1,13 @@
+The tail command is used to print last 10 lines of a file by default.
+
+$ tail FILE_NAME                                            (display only the last 10 lines of the file)
+$ tail -n NO FILE_NAME                                      (prints the last NO lines instead of last 10 lines)
+EG: tail -n 3 FILE_NAME (OR) tail -3 FILE_NAME
+$ tail -v FILE_NAME
+$ tail FILE_NAME FILE_NAME
+$ tail -q FILE_NAME FILE_NAME
+
+tail & sort with pipe - The 'tail & sort' command is generally used with pipe (|).
+
+$ tail -n NO FILE_NAME | sort
+EG: tail -n 6 FILE_NAME | sort 

@@ -1,0 +1,19 @@
+$ usermod -c "CUSTOM_COMMENT" USER_NAME                             # comment
+$ usermod -d /home/FOLDER_NAME USER_NAME                            # change the home directory of a user 
+$ usermod -d /home/FOLDER_NAME -m USER_NAME
+$ usermod -e 2025-01-21 USER_NAME                                   # change the expiry date of a user 
+$ usermod -e "" USER_NAME                                           # disable the expiration date for an User
+$ usermod -l USER_NAME:new USER_NAME:old                            # change username 
+$ usermod -L USER_NAME                                              # lock a user
+$ usermod --lock USER_NAME
+$ usermod -U USER_NAME                                              # unlock a user
+$ usermod --unlock USER_NAME
+$ usermod -p PASSWORD USER_NAME                                     # set an password for the user
+$ usermod -s /bin/sh USER_NAME                                      # create a shell for the user
+$ usermod -s /bin/bash USER_NAME
+$ usermod -s /sbin/nologin USER_NAME                                # disable a shell for the user
+$ usermod -u UID USER_NAME                                          # change the user id (UID) of a user 
+$ usermod -g GROUP_NAME USER_NAME                                   # adding Users into a Groups, -g = Primary group 
+$ usermod -a -G GROUP_NAME USER_NAME                                # -G = Secondary group
+$ usermod -aG GROUP_NAME USER_NAME
+$ usermod -a -G GROUP_NAME,GROUP_NAME,GROUP_NAME USER_NAME

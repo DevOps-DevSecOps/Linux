@@ -1,0 +1,5 @@
+$ service SERVICE_NAME start
+$ service SERVICE_NAME stop
+$ service SERVICE_NAME restart
+$ service SERVICE_NAME reload
+$ service SERVICE_NAME status

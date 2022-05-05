@@ -1,0 +1,23 @@
+[sed]
+sed '/^$/d' FILE_NAME                                   # d-delete the empty lines in a file
+sed '/^$/d' FILE_NAME > FILE_NAME                       # redirect the output into a new file
+sed -i '/^$/d' FILE_NAME                                # i-edit the file in-place
+
+[grep]
+grep . FILE_NAME                                        # remove blank lines (not including lines with spaces)
+grep . FILE_NAME > FILE_NAME
+grep "\S" FILE_NAME                                     # remove completely blank lines (including lines with spaces)
+grep '\S' FILE_NAME > FILE_NAME
+grep '^$' FILE_NAME                                     # search for empty lines
+grep -v '^$' FILE_NAME      
+grep -v '^$' FILE_NAME > FILE_NAME                            
+grep -Ev "^$" FILE_NAME
+
+[awk]
+awk NF FILE_NAME
+awk NF FILE_NAME > FILE_NAME
+awk 'NF' FILE_NAME > FILE_NAME
+awk '!/^$/' FILE_NAME
+awk '!/^$/' FILE_NAME > FILE_NAME
+awk '/./' FILE_NAME
+awk '/./' FILE_NAME > FILE_NAME

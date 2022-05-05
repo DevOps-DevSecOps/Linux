@@ -1,0 +1,75 @@
+$ vi /etc/sudoers (OR) $ visudo
+
+
+## User ## 
+
+root                    ALL=(ALL)                   ALL
+
+USER_NAME               ALL=(ALL)                   ALL
+
+USER_NAME               ALL=(ALL)                   NOPASSWD:ALL
+
+USER_NAME               ALL=(ALL)                   NOPASSWD: ALL
+
+USER_NAME               ALL=(ALL)                   NOPASSWD:LINUX_COMMANDS
+EG: USER_NAME           ALL=(ALL)                   NOPASSWD:/bin/bash
+
+USER_NAME               ALL=(ALL)                   NOPASSWD: LINUX_COMMANDS
+EG: USER_NAME           ALL=(ALL)                   NOPASSWD: /bin/kill, /bin/rm
+
+USER_NAME               ALL=(ALL)                   LINUX_COMMANDS
+EG: USER_NAME           ALL=(ALL)                   /sbin/clock
+
+root                    ALL=(ALL:ALL)               ALL
+
+USER_NAME               ALL=(ALL:ALL)               ALL
+
+USER_NAME               ALL=(ALL:ALL)               NOPASSWD:ALL
+
+USER_NAME               ALL=(ALL:ALL)               NOPASSWD: ALL
+
+USER_NAME               ALL=(ALL:ALL)               NOPASSWD:LINUX_COMMANDS
+EG: USER_NAME           ALL=(ALL:ALL)               NOPASSWD:/bin/bash
+
+USER_NAME               ALL=(ALL:ALL)               NOPASSWD: LINUX_COMMANDS
+EG: USER_NAME           ALL=(ALL:ALL)               NOPASSWD: /bin/kill, /bin/rm
+
+USER_NAME               ALL=(ALL:ALL)               LINUX_COMMANDS
+EG: USER_NAME           ALL=(ALL:ALL)               /sbin/clock
+
+
+## Group ##
+
+%wheel                  ALL=(ALL)                   ALL
+
+%wheel                  ALL=(ALL)                   NOPASSWD: ALL
+
+GROUP_NAME              ALL=(ALL)                   ALL
+
+GROUP_NAME              ALL=(ALL)                   NOPASSWD:ALL
+
+GROUP_NAME              ALL=(ALL)                   NOPASSWD: ALL
+
+GROUP_NAME              ALL=(ALL)                   NOPASSWD:LINUX_COMMANDS
+EG: GROUP_NAME          ALL=(ALL)                   NOPASSWD:/usr/sbin/reboot, systemctl
+
+GROUP_NAME              ALL=(ALL)                   NOPASSWD: LINUX_COMMANDS
+EG: GROUP_NAME          ALL=(ALL)                   NOPASSWD: /usr/sbin/reboot, systemctl
+
+%sudo                   ALL=(ALL:ALL)               ALL
+
+%sudo                   ALL=(ALL)                   ALL
+
+%sudo                   ALL=(ALL)                   NOPASSWD: ALL
+
+GROUP_NAME              ALL=(ALL:ALL)               ALL
+
+GROUP_NAME              ALL=(ALL:ALL)               NOPASSWD:ALL
+
+GROUP_NAME              ALL=(ALL:ALL)               NOPASSWD: ALL
+
+GROUP_NAME              ALL=(ALL:ALL)               NOPASSWD:LINUX_COMMANDS
+EG: GROUP_NAME          ALL=(ALL:ALL)               NOPASSWD:/usr/sbin/reboot, systemctl
+
+GROUP_NAME              ALL=(ALL:ALL)               NOPASSWD: LINUX_COMMANDS
+EG: GROUP_NAME          ALL=(ALL:ALL)               NOPASSWD: /usr/sbin/reboot, systemctl

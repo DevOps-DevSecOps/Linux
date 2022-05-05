@@ -1,0 +1,7 @@
+It filters out the repeated lines in a file and also deletes the duplicate lines.
+
+$ uniq FILE_NAME
+$ uniq -c FILE_NAME			(count the number of times a line was repeated)
+$ uniq -d FILE_NAME			(prints the repeated lines)
+$ uniq -D FILE_NAME
+$ uniq -u FILE_NAME			(prints only the unique lines)

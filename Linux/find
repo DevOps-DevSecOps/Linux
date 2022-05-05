@@ -1,0 +1,22 @@
+It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions.
+
+$ find . -empty                                         # find all empty folders and files
+$ find . -type f -empty
+$ find . -name FILE_NAME
+$ find . -type f -name FILE_NAME
+$ find . -type f -name "*.FORMAT"
+EG: find . -type f -name "*.php"
+$ find ./FOLDER_NAME -empty                             # find all empty folders and files in the entered directory or sub-directories
+$ find ./FOLDER_NAME -name FILE_NAME
+$ find ./FOLDER_NAME -name *.FORMAT
+EG: find ./FOLDER_NAME -name *.txt
+$ find ./ -type f -name "*.FORMAT"
+EG: find ./ -type f -name "*.txt" 
+$ find /FOLDER_NAME -type f -empty
+$ find /FOLDER_NAME -type d -empty
+$ find / -name FILE_NAME
+$ find /FOLDER_NAME -name FILE_NAME
+$ find / -type d -name FOLDER_NAME
+$ find /home -user USER_NAME
+$ find / -user USER_NAME -name FILE_NAME
+$ find /FOLDER_NAME -type f -name ".*"                  # Hidden Files

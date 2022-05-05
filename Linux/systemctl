@@ -1,0 +1,9 @@
+$ systemctl start SERVICE_NAME
+$ systemctl stop SERVICE_NAME
+$ systemctl restart SERVICE_NAME
+$ systemctl reload SERVICE_NAME
+$ systemctl status SERVICE_NAME
+$ systemctl enable SERVICE_NAME
+$ systemctl disable SERVICE_NAME
+
+$ systemctl enable SERVICE_NAME.service

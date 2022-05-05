@@ -1,0 +1,7 @@
+Executable files are usually stored in one of several standard directories on the hard disk drive (HDD) on Unix like operating systems.
+
+/bin
+/sbin
+/usr/bin
+/usr/sbin
+/usr/local/bin

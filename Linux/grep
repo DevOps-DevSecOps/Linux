@@ -1,0 +1,8 @@
+The 'grep' command stands for "global regular expression print". grep command filters the content of a file which makes our search easy.
+
+$ grep 'WORD_NAME' FILE_NAME
+$ grep 'WORD_NAME' FILE_NAME FILE_NAME FILE_NAME
+$ grep -l "WORD_NAME" *
+$ grep -l "WORD_NAME" FILE_NAME FILE_NAME FILE_NAME
+$ grep -o "WORD_NAME" FILE_NAME                                (matched pattern)
+$ grep -n "WORD_NAME" FILE_NAME                                (line number with line matched)

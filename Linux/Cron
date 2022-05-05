@@ -1,0 +1,30 @@
+[Cron] 
+It is a daemon which runs at the times of system boot.
+
+[Crontab]
+It is a file which contains the schedule of cron entries to be run and at specified times. 
+A crontab file has five fields for specifying day, date and time followed by the command to be run at that interval.
+File location varies by operating systems.
+
+[Cron Job (OR) Cron Schedule]
+It is a specific set of execution instructions specifying day, time and command to execute.
+It can have multiple execution statements.
+
+[Commands]
+crontab -l                          # list of cronjobs , display crontab file contents
+crontab -u USER_NAME -l             # list another user's crons
+crontab -e                          # set the cronjobs
+crontab -u USER_NAME -e             # edit another user's crons
+crontab -r                          # delete / remove crontab file
+crontab -v                          # display the last time edited crontab file
+
+[File Syntax]
+┌──────────────────────────────> minute (0 - 59)
+| ┌────────────────────────────> hour (0 - 23)
+| | ┌──────────────────────────> day of the month (1 - 31)
+| | | ┌────────────────────────> month (1 - 12)
+| | | | ┌──────────────────────> day of the week (0 - 6) means 'Sunday to Saturday' and 7 is also Sunday OR (sun, mon, tue, wed, thu, fri, sat)
+| | | | |
+* * * * *
+
+[Examples]

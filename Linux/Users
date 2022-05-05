@@ -1,0 +1,21 @@
+useradd --help
+useradd USER_NAME                                               # the user’s home directory is not created  
+useradd -m USER_NAME                                            # adding new user with create home directory, -m (--create-home) option to create the user home directory as /home/USER_NAME
+useradd -M USER_NAME                                            # adding new user with out home directory 
+useradd -m -d /opt/FOLDER_NAME USER_NAME                        # adding new user with create home directory in other location, use the -d (--home) option
+useradd -m -d /home/FOLDER_NAME USER_NAME
+useradd -d /home/FOLDER_NAME USER_NAME                          # adding new user with create home directory in other location
+useradd -u UID_NO USER_NAME                                     # adding new user with custom specific User ID (UID)
+useradd -g GROUP_NAME USER_NAME                                 # adding new user with Group name  
+useradd -g GID_NO USER_NAME                                     # adding new user with Group ID (GID)  
+useradd -g GROUP_NAME -G GROUP_NAME,GROUP_NAME USER_NAME        # adding new user with multiple Group name (-g = Primary group & -G = Secondary group)
+useradd –G GROUP_NAME USER_NAME
+useradd -r USER_NAME                                            # adding new user into system account
+useradd -e 2025-01-21 USER_NAME                                 # adding new user with an expiry date, -e (--expiredate) option, The date must be specified using the YYYY-MM-DD format
+useradd -c "CUSTOM_COMMENT" USER_NAME                           # adding new user with comment, -c (--comment) option allows you to add a short description for the new user 
+useradd -s /bin/sh USER_NAME                                    # adding new user to shell
+useradd -ms /bin/bash USER_NAME                                 # adding new user with create home directory, shell
+
+adduser USER_NAME GROUP_NAME
+adduser --home /home/FOLDER_NAME USER_NAME
+deluser USER_NAME GROUP_NAME

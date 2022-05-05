@@ -1,0 +1,26 @@
+$ mount                                                                             # display all currently mounted file system on a system
+$ mount -a
+
+The temporary mounting of file system is something that will unmount automatically after reboot the system.
+
+$ mount /dev/xvdf1 /FOLDER_NAME
+$ mount LABEL="LABEL_NAME" /FOLDER_NAME                                             # refer label from mkfs ext4
+$ mount UUID="687eb83f-c16f-4fa9-bb49-1621eed3a35d" /FOLDER_NAME
+$ mount -t ext4 /dev/sdb3 /FOLDER_NAME
+$ mount -t ext4 -o rw /dev/sdb3 /FOLDER_NAME
+
+$ mount | grep FOLDER_NAME
+/dev/xvdf1 on /FOLDER_NAME type ext4 (rw,relatime,seclabel,data=ordered)
+
+$ umount /dev/xvdd1 
+$ umount /FOLDER_NAME
+
+The permanently mounting of file system have to adding entries into the "/etc/fstab" allows to make mounts persistent after reboot.
+
+$ vi /etc/fstab
+/dev/sdb3                                           /FOLDER_NAME
+/dev/sdb3                                           /FOLDER_NAME    ext3    defaults     0 0
+UUID=e98bc512-f45c-4a93-ac84-d96b7d9f7750           /FOLDER_NAME
+UUID=e98bc512-f45c-4a93-ac84-d96b7d9f7750           /FOLDER_NAME    ext4    defaults     0 1
+LABEL=LABEL_NAME                                    /FOLDER_NAME
+LABEL=LABEL_NAME                                    /FOLDER_NAME    ext4    defaults     0 2
