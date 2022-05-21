@@ -1,0 +1,4 @@
+$ openssl version
+
+Create RSA Private Key
+$ openssl genrsa -out FILE_NAME.key 2048
