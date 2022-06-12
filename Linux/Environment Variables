@@ -1,6 +1,6 @@
 [display ENV]
 $ printenv                                          # displays all the global ENVs
-$ set                                               # display all the ENVs(global,local)
+$ set                                               # display all the ENVs (global,local)
 $ env                                               # display all the global ENVs
 
 [Pipe with ENV]
@@ -18,7 +18,7 @@ $ export NAME='VALUE'
 $ set NAME=VALUE
 $ set NAME='VALUE'
 
-[read ENV]
+[read ENV (global,local)]
 $ echo $NAME
 
 [remove ENV]
@@ -31,6 +31,16 @@ $PWD                                        # path of present working directory
 $HOME                                       # path of home directory
 $HOSTNAME                                   # name of the host
 $LANG                                       # default system language
-$EDITOR                                     # default file editor
 $UID                                        # user ID of current user
 $SHELL                                      # location of current users shell program
+
+[read Linux ENVs]
+$ printenv USER           (OR)      $ echo $USER
+$ printenv PATH           (OR)      $ echo $PATH
+$ printenv PWD            (OR)      $ echo $PWD
+$ printenv HOME           (OR)      $ echo $HOME
+                          (OR)      $ echo $HOSTNAME
+$ printenv LANG           (OR)      $ echo $LANG
+                          (OR)      $ echo $UID
+$ printenv SHELL          (OR)      $ echo $SHELL
+$ printenv LANG PWD
