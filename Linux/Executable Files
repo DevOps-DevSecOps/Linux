@@ -1,5 +1,9 @@
-Executable files are usually stored in one of several standard directories on the hard disk drive (HDD) on Unix like operating systems.
+The command to make a Executable files.
+$ chmod +x FILE_NAME
+$ chmod +x FILE_NAME.EXTENSION
 
+Executable files are usually stored in one of several standard directories on the hard disk drive (HDD) on Unix like operating systems.
+$ printenv PATH    (OR)    $ echo $PATH
 /bin
 /sbin
 /usr/bin
