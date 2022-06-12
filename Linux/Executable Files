@@ -5,3 +5,4 @@ Executable files are usually stored in one of several standard directories on th
 /usr/bin
 /usr/sbin
 /usr/local/bin
+/usr/local/sbin
