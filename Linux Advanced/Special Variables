@@ -1,0 +1,27 @@
+● $1 to $NO
+Passing no of arguments while execution a command.
+$1 is the first argument, $2 is second argument till $NO n’th arguments.
+From 10’th argument, must need to inclose them in braces like ${10}, ${11} and so on.
+
+● $0
+The filename of the current script.
+It set script filename inside a script.
+
+● $$
+Process ID (PID) of the current shell.
+
+● $!
+Process ID (PID) of last command.
+
+● $?
+The exit status of the last command executed. (0=success, 127=unsuccess)
+
+● $#
+Total number of arguments passed to script.
+It is a number of passed arguments to the script was executed.
+
+● $*
+All the arguments are single double quoted. If a script receives two arguments, $* is equivalent to "$1 $2".
+
+● $@
+All the arguments are individually double quoted. If a script receives two arguments, $@ is equivalent to "$1" "$2".
