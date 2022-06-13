@@ -9,12 +9,14 @@ It set script filename inside a script.
 
 ● $$
 Process ID (PID) of the current shell.
+$ echo $$                                                               # to read the $$ variable
 
 ● $!
 Process ID (PID) of last command.
 
 ● $?
 The exit status of the last command executed. (0=success, 127=unsuccess)
+$ echo $?                                                              # to read the $? variable
 
 ● $#
 Total number of arguments passed to script.
