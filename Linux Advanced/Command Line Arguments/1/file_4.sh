@@ -12,10 +12,9 @@ The command to execute a file with arguments.
 $ ./file_4.sh Zara Ali
 
 The output will be.
-File Name : test.sh
+File Name: ./test.sh
 First Parameter : Zara
 Second Parameter : Ali
 Quoted Values: Zara Ali
 Quoted Values: Zara Ali
 Total Number of Parameters : 2
-'
