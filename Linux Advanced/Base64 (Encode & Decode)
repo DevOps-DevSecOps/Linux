@@ -1,0 +1,26 @@
+[Encode]
+cat FILE_NAME.EXTENSION | base64
+
+echo -n 'CONTENT' | base64
+EG :-
+$ echo -n 'hello world' | base64
+bXktc3RyaW5n                                                                    # output
+
+NAME=VALUE                                                                      # environment variable
+NAME="VALUE"                                                                    # environment variable
+base64 -w 0 $NAME
+
+base64 /FOLDER_NAME/FILE_NAME.EXTENSION
+
+base64 /FOLDER_NAME/FILE_NAME.EXTENSION > FILE_NAME.EXTENSION                   # to save the output in a file
+
+[Decode]
+echo 'ENCODE_OUTPUT_ID' | base64 --decode
+
+echo -n 'ENCODE_OUTPUT_ID' | base64 --decode
+
+base64 -d /FOLDER_NAME/FILE_NAME.EXTENSION
+
+base64 --decode /FOLDER_NAME/FILE_NAME.EXTENSION
+
+base64 --decode /FOLDER_NAME/FILE_NAME.EXTENSION > FILE_NAME.EXTENSION
