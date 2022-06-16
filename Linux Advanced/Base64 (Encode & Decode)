@@ -1,12 +1,13 @@
 base64 --help
 
 [Encode]
+To encode the content and files.
+
 cat FILE_NAME.EXTENSION | base64
 
 echo 'CONTENT' | base64
 echo "CONTENT" | base64
-
-echo "CONTENT" | base64 > FILE_NAME.EXTENSION                   # to save the output in a file
+echo "CONTENT" | base64 > FILE_NAME.EXTENSION                                   # to save the output in a file
 
 echo -n 'CONTENT' | base64
 EG :-
@@ -15,34 +16,26 @@ bXktc3RyaW5n                                                                    
 
 NAME=VALUE                                                                      # environment variable
 NAME="VALUE"                                                                    # environment variable
-base64 -w 0 $NAME
+base64 $NAME
 
 base64 FILE_NAME
-
-base64 /FOLDER_NAME/FILE_NAME.EXTENSION
-
 base64 FILE_NAME > FILE_NAME.EXTENSION                                          # to save the output in a file
-
+base64 /FOLDER_NAME/FILE_NAME.EXTENSION
 base64 /FOLDER_NAME/FILE_NAME.EXTENSION > FILE_NAME.EXTENSION                   # to save the output in a file
 
 [Decode]
-echo 'ENCODE_OUTPUT_ID' | base64 -d
+To decode the content and files.
 
+echo 'ENCODE_OUTPUT_ID' | base64 -d
 echo 'ENCODE_OUTPUT_ID' | base64 --decode
 echo "ENCODE_OUTPUT_ID" | base64 --decode
-
 echo "ENCODE_OUTPUT_ID" | base64 --decode > FILE_NAME.EXTENSION                 # to save the output in a file
 
 echo -n 'ENCODE_OUTPUT_ID' | base64 --decode
 
 base64 -d FILE_NAME
-
 base64 -d /FOLDER_NAME/FILE_NAME.EXTENSION
-
-base64 --decode /FOLDER_NAME/FILE_NAME.EXTENSION
-
 base64 -d FILE_NAME > FILE_NAME.EXTENSION                                       # to save the output in a file
-
+base64 --decode /FOLDER_NAME/FILE_NAME.EXTENSION
 base64 --decode FILE_NAME.EXTENSION > FILE_NAME.EXTENSION                       # to save the output in a file
-
 base64 --decode /FOLDER_NAME/FILE_NAME.EXTENSION > FILE_NAME.EXTENSION          # to save the output in a file
