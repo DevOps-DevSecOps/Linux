@@ -15,7 +15,8 @@ $ echo $$                                                               # to rea
 Process ID (PID) of last command.
 
 ● $?
-The exit status of the last command executed. (0=success, 127=unsuccess)
+The exit status of the last command executed. 
+0=success, any other NO=unsuccess
 $ echo $?                                                              # to read the $? variable
 
 ● $#
