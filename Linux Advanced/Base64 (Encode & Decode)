@@ -34,6 +34,7 @@ echo "ENCODE_OUTPUT_ID" | base64 --decode > FILE_NAME.EXTENSION                 
 echo -n 'ENCODE_OUTPUT_ID' | base64 --decode
 #---------->EXAMPLE<----------#
 $ echo -n 'bXktc3RyaW5n' | base64 --decode
+hello world
 
 base64 -d FILE_NAME
 base64 -d /FOLDER_NAME/FILE_NAME.EXTENSION
