@@ -1,0 +1,5 @@
+echo -n 'CONTENT' > FILE_NAME                              # save the content in a file
+echo -n 'CONTENT' > ./FILE_NAME
+
+[Examples]
+$ echo -n 'hello world' > FILE_NAME
