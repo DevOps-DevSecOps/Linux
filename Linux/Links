@@ -1,0 +1,8 @@
+There are two types of Links.
+● Hard Links
+● Soft Links
+
+[Hard Links]
+
+[Soft Links]
+$ ln -s /FOLDER_NAME/FOLDER_NAME/FILE_NAME /FOLDER_NAME/FILE_NAME
