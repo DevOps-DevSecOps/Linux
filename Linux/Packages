@@ -1,5 +1,8 @@
 [Advanced Package Tool (APT)]
 apt-get update
+apt-get upgrade
+apt-get upgrade --dry-run
+apt-get upgrade --yes
 apt-get install PACKAGE_NAME
 apt-get install -y PACKAGE_NAME
 apt-get remove PACKAGE_NAME
@@ -7,12 +10,17 @@ apt-get remove --auto-remove PACKAGE_NAME
 apt-get purge PACKAGE_NAME
 apt-get purge --auto-remove PACKAGE_NAME
 sudo apt-get update -y
+sudo apt-get upgrade
+sudo apt-get upgrade --dry-run
+sudo apt-get upgrade --yes
 sudo apt-get install PACKAGE_NAME
 sudo apt-get install -y PACKAGE_NAME
 sudo apt-get remove PACKAGE_NAME
 sudo apt-get remove --auto-remove PACKAGE_NAME
 sudo apt-get purge PACKAGE_NAME
 sudo apt-get purge --auto-remove PACKAGE_NAME
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade -y
 
 [Yellowdog Updater, Modified (YUM)]
 yum install PACKAGE_NAME -y
