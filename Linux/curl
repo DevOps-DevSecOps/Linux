@@ -12,3 +12,4 @@ $ curl HTTPS_URL
 $ curl -u USER_NAME:PASSWORD -O HTTPS_URL_FILE_NAME                             # to download files with authenticated
 $ curl -O HTTPS_URL_FILE_NAME                                                   # to downloads the file and saves it with the same original name as in the URL
 $ curl -o FILE_NAME:rename HTTPS_URL_FILE_NAME:original                         # to saves the downloaded file on pc with the specific name
+$ curl -o "HTTPS_URL_FILE_NAME:original" "FILE_NAME:rename"
