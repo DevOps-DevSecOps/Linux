@@ -15,11 +15,14 @@ $ NAME='VALUE'
 [global ENV]
 $ export NAME=VALUE
 $ export NAME='VALUE'
+$ export NAME="VALUE"
+$ export NAME=$(echo $SHELL)
 $ set NAME=VALUE
 $ set NAME='VALUE'
 
 [read ENV (global,local)]
 $ echo $NAME
+$ printenv NAME
 
 [remove ENV]
 $ unset NAME
@@ -44,3 +47,18 @@ $ printenv LANG           (OR)      $ echo $LANG
                           (OR)      $ echo $UID
 $ printenv SHELL          (OR)      $ echo $SHELL
 $ printenv LANG PWD
+
+
+[setting 'Environment Variables' permanently]
+When assign a value to a variable using “export” in a shell, the changes are not persisted (not permanently) on reboots.
+There are 2 ways to do this
+● “.bashrc” file
+In the “.bashrc” file adding Environment Variables is only for current USER_NAME.
+The “.bashrc” file located in '/home/USER_NAME/.bashrc'.
+$ nano /home/USER_NAME/.bashrc
+$ vi /home/USER_NAME/.bashrc
+export NAME="VALUE"
+Then save & quit the “.bashrc” file.
+Command to refresh the “.bashrc” file for the changes to be applied to current USER_NAME.
+
+●
