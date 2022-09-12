@@ -48,7 +48,6 @@ $ printenv LANG           (OR)      $ echo $LANG
 $ printenv SHELL          (OR)      $ echo $SHELL
 $ printenv LANG PWD
 
-
 [setting 'Environment Variables' permanently]
 When assign a value to a variable using “export” in a shell, the changes are not persisted (not permanently) on reboots.
 There are 2 ways to do this
