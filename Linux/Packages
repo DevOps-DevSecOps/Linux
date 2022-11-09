@@ -25,6 +25,9 @@ sudo apt-get update && sudo apt-get upgrade -y
 [Yellowdog Updater, Modified (YUM)]
 yum update
 yum update -y
+yum install PACKAGE_NAME
 yum install PACKAGE_NAME -y
 sudo yum update
 sudo yum update -y
+sudo yum install PACKAGE_NAME
+sudo yum install PACKAGE_NAME -y
