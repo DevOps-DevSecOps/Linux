@@ -26,3 +26,5 @@ sudo apt-get update && sudo apt-get upgrade -y
 yum update
 yum update -y
 yum install PACKAGE_NAME -y
+sudo yum update
+sudo yum update -y
