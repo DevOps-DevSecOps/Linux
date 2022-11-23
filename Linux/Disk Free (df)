@@ -6,6 +6,7 @@ $ df
 $ df -a
 $ df -h
 $ df -Th
+$ df -aTh
 $ df --total
 $ df /FOLDER_NAME
 $ df -h /FOLDER_NAME
