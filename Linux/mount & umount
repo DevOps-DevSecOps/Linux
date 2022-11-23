@@ -34,6 +34,12 @@ $ findmnt                                               # list all mounted files
 $ findmnt --raw                                         #
 $ findmnt -s                                            #
 $ findmnt -l                                            # to display filesystem types in simple, plain list format
-
+$ findmnt --df                                          # list the mounted with an Disk Free (df)
+$ findmnt -D
+$ findmnt -t ext4                                       # list the mounted with an partitions of a particular File System
+$ findmnt --fstab -t xfs                                
+$ findmnt --fstab -t ext4                               
+$ findmnt /dev/vda3
 $ findmnt -S /dev/vda3                                  #
+$ findmnt /
 $ findmnt -T /                                          # / is an root directory to find where it is mounted
