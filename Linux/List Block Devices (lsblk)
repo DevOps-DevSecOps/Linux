@@ -1,0 +1,9 @@
+It will display a list of the block devices.
+
+$ lsblk
+$ lsblk -a
+$ lsblk -f
+$ lsblk -l
+$ lsblk -m
+$ lsblk -n
+$ lsblk /dev/sda1
