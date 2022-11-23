@@ -42,4 +42,4 @@ $ findmnt --fstab -t ext4
 $ findmnt /dev/vda3
 $ findmnt -S /dev/vda3                                  #
 $ findmnt /
-$ findmnt -T /                                          # / is an root directory to find where it is mounted
+$ findmnt -T /                                          # / is an root directory to find where it is mounted to
