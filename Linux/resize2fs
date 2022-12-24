@@ -1,0 +1,6 @@
+It will resize ext2, ext3, ext4 file systems.
+It can be used to enlarge or shrink an unmounted file system located on device.
+If the filesystem is mounted, it can be used to expand the size of the mounted filesystem, assuming the kernel supports on-line resizing.
+So widely this resize2fs command will be used in fdisk (deleting the partition and recreating it with a larger size) and lvm.
+
+$
