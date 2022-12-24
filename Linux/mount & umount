@@ -4,9 +4,11 @@ $ mount -l
 The temporary mounting of file system is something that will unmount automatically after reboot the system.
 
 $ mount /dev/xvdf1 /FOLDER_NAME
+$ mount /dev/xvdf1 FOLDER_NAME
 $ mount LABEL="LABEL_NAME" /FOLDER_NAME                                             # refer label from mkfs ext4
 $ mount UUID="687eb83f-c16f-4fa9-bb49-1621eed3a35d" /FOLDER_NAME
 $ mount -t ext4 /dev/sdb3 /FOLDER_NAME
+$ mount -t ext4 /dev/sdb3 FOLDER_NAME/FOLDER_NAME
 $ mount -t ext4 -o rw /dev/sdb3 /FOLDER_NAME
 $ sudo mount /dev/sdb1 /FOLDER_NAME/FOLDER_NAME
 
