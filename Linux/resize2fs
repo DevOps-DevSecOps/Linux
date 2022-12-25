@@ -4,3 +4,5 @@ If the filesystem is mounted, it can be used to expand the size of the mounted f
 So widely this resize2fs command will be used in fdisk (deleting the partition and recreating it with a larger size) and lvm.
 
 $ resize2fs /dev/xvdf
+$ resize2fs -f /dev/xvdf
+$ resize2fs -P /dev/xvdf
