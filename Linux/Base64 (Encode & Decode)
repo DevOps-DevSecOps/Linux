@@ -10,6 +10,7 @@ echo "CONTENT" | base64
 echo "CONTENT" | base64 > FILE_NAME.EXTENSION                                   # to save the output in a file
 
 echo -n 'CONTENT' | base64
+echo -n "CONTENT" | base64
 #---------->EXAMPLE<----------#
 $ echo -n 'hello world' | base64
 bXktc3RyaW5n                                                                    # output
