@@ -1,4 +1,7 @@
 [configure NAMES, DNS locally using /etc/hosts File]
+To setup a local DNS using the hosts file (/etc/hosts) in Linux systems for local domain resolution or testing the website before taking live.
+To test a website locally with a custom domain name before going live publicly by modifying the /etc/hosts file on your local system to point the domain name to the IP address of the local DNS server you configured.
+
 $ vi /etc/hosts
 
 IP_ADDRESS                  ALIAS_NAME
