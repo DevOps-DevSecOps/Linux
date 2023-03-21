@@ -9,6 +9,7 @@ apt-get remove PACKAGE_NAME
 apt-get remove --auto-remove PACKAGE_NAME
 apt-get purge PACKAGE_NAME
 apt-get purge --auto-remove PACKAGE_NAME
+sudo apt-get update
 sudo apt-get update -y
 sudo apt-get upgrade
 sudo apt-get upgrade --dry-run
@@ -17,7 +18,10 @@ sudo apt-get install PACKAGE_NAME
 sudo apt-get install -y PACKAGE_NAME
 sudo apt-get remove PACKAGE_NAME
 sudo apt-get remove --auto-remove PACKAGE_NAME
+sudo apt-get autoremove -y PACKAGE_NAME
+sudo apt-get autoremove --purge -y PACKAGE_NAME
 sudo apt-get purge PACKAGE_NAME
+sudo apt-get purge -y PACKAGE_NAME
 sudo apt-get purge --auto-remove PACKAGE_NAME
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get update && sudo apt-get upgrade -y
