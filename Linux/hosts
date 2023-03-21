@@ -3,7 +3,6 @@ To setup a local DNS using the hosts file (/etc/hosts) in Linux systems for loca
 To test a website locally with a custom domain name before going live publicly by modifying the /etc/hosts file on your local system to point the domain name to the IP address of the local DNS server you configured.
 
 $ vi /etc/hosts
-
 IP_ADDRESS                  ALIAS_NAME
 EG: 127.0.0.1               localhost
 EG: 192.168.56.1            server1                     # target system IP_ADDRESS assigning as a NAME
