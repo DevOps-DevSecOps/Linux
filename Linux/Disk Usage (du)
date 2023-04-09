@@ -4,8 +4,8 @@ $ du
 $ du --time
 $ du -h                                                                           # can see sizes in Bytes, Kilobytes, Megabytes, Gigabytes, etc
 $ du -a                                                                           # displays the disk usage of all the files and directories
-$ du -s
-$ du -sh                                                                          # total disk usage size of a directory
+$ du -s                                                                           # total disk usage size of a directory
+$ du -sh                                                                          
 $ du -ha --time                                                                   # display the disk usage based on a modification of time
 $ du /FOLDER_NAME
 $ du -h /FOLDER_NAME
