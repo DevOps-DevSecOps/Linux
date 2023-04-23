@@ -1,3 +1,5 @@
+$ uname
+
 $ lsb_release -a
 $ lsb_release -d
 $ lsb_release -sc
