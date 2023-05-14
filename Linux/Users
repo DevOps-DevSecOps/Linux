@@ -15,6 +15,7 @@ useradd -e 2025-01-21 USER_NAME                                 # adding new use
 useradd -c "CUSTOM_COMMENT" USER_NAME                           # adding new user with comment, -c (--comment) option allows you to add a short description for the new user 
 useradd -s /bin/sh USER_NAME                                    # adding new user to shell
 useradd -ms /bin/bash USER_NAME                                 # adding new user with create home directory, shell
+userdel -r USER_NAME
 
 adduser USER_NAME GROUP_NAME
 adduser --home /home/FOLDER_NAME USER_NAME
