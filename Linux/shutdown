@@ -1,0 +1,19 @@
+shutdown
+shutdown -r                                                     # reboot the system
+shutdown +MM                                                    # EG:- [$ shutdown +10] it will schedule system shutdown in 10 minutes
+shutdown HH:MM                                                  # EG:- [$ shutdown 11:00] it schedule system shutdown at 11 A.M
+shutdown now                                                    # shutdown system immediately
+shutdown +MM "CUSTOM_MESSAGE"                                   # EG:- [$ shutdown +30 "Hardware upgrade"] broadcast a custom message along with time argument, shutdown in 30 minutes from now and notify the users that a hardware upgrade will be performed
+shutdown -r +M "CUSTOM_MESSAGE"                                 # EG:- [$ shutdown -r +5 "Updating kernel"] reboot the system in 5 minutes with broadcast custom message
+shutdown -c                                                     # cancel a scheduled shutdown
+shutdown -c "CUSTOM_MESSAGE"                                    # cancel a scheduled shutdown with broadcast custom message that will be sent to all users
+
+sudo shutdown
+sudo shutdown -r
+sudo shutdown +MM
+sudo shutdown HH:MM
+sudo shutdown now
+sudo shutdown +MM "CUSTOM_MESSAGE"
+sudo shutdown -r +M "CUSTOM_MESSAGE"
+sudo shutdown -c
+sudo shutdown -c "CUSTOM_MESSAGE"
