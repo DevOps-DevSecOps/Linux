@@ -1,5 +1,6 @@
 NAME=VALUE 
 echo $NAME
+VALUE
 
 [Examples]
 $ name=DY
