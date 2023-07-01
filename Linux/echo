@@ -1,5 +1,5 @@
-NAME=VALUE 
-echo $NAME
+$ NAME=VALUE 
+$ echo $NAME
 VALUE
 
 [Examples]
