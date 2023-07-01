@@ -1,4 +1,13 @@
-echo -n 'CONTENT' > FILE_NAME                              # save the content in a file
+NAME=VALUE 
+echo $NAME
+
+[Examples]
+$ name=DY
+$ echo $name
+DY
+
+
+echo -n 'CONTENT' > FILE_NAME                                                               # save the content in a file
 echo -n 'CONTENT' > ./FILE_NAME
 
 [Examples]
