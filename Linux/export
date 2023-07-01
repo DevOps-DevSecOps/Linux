@@ -1,0 +1,19 @@
+export                                                              # to view all the exported variables
+export -p                                                           # to view all exported variables on current shell
+export NAME=VALUE                                                   # exporting
+export NAME="VALUE"
+
+
+NAME=VALUE                                                          
+export NAME
+printenv NAME
+
+[Examples]
+$ a=5
+$ echo $a
+5
+$ export a
+$ printenv a 
+5
+
+
