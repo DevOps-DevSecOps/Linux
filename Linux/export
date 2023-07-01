@@ -19,3 +19,20 @@ $ printenv a
 
 
 $ export NAME="VALUE"
+$ echo $NAME
+VALUE
+$ printenv NAME
+VALUE
+$ export NAME=$NAME
+
+[Examples]
+$ export password="123"
+$ echo $password
+123
+$ printenv password
+123
+$ export credentials=$password
+$ echo $credentials
+123
+$ printenv credentials
+123
