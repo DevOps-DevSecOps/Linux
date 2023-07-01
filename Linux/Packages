@@ -35,3 +35,11 @@ sudo yum update
 sudo yum update -y
 sudo yum install PACKAGE_NAME
 sudo yum install PACKAGE_NAME -y
+
+[Zypper Package Manager]
+zypper update
+zypper install PACKAGE_NAME
+zypper install PACKAGE_NAME -y
+sudo zypper update
+sudo zypper install PACKAGE_NAME
+sudo zypper install PACKAGE_NAME -y
