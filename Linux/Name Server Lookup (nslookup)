@@ -1,0 +1,39 @@
+It is a useful command for getting information from the DNS server.
+It is a network administration tool for querying the Domain Name System (DNS) to obtain domain name or IP address mapping or any other specific DNS record.
+By default, nslookup uses port 53 for DNS queries.
+
+nslookup DNS_NAME
+$ nslookup google.com
+
+nslookup IP_ADDRESS
+$ nslookup 192.168.0.10
+
+to view all the available DNS records using the -type=any option.
+nslookup -type=any DNS_NAME
+nslookup -type=any IP_ADDRESS
+
+SOA record (start of authority), provides the authoritative information about the domain, the e-mail address of the domain admin, the domain serial number, etc.
+nslookup -type=soa DNS_NAME
+nslookup -type=soa IP_ADDRESS
+
+NS (Name Server) record maps a domain name to a list of DNS servers authoritative for that domain.
+It will output the name serves which are associated with the given domain. 
+nslookup -type=ns DNS_NAME
+nslookup -type=ns IP_ADDRESS
+
+to view all the available DNS records for a particular record using the -type=a option. 
+nslookup -type=a DNS_NAME
+nslookup -type=a IP_ADDRESS
+
+MX (Mail Exchange) maps a domain name to a list of mail exchange servers for that domain.
+MX record says that all the mails sent to “DNS_NAME” should be routed to the Mail server in that domain. 
+nslookup -type=mx DNS_NAME
+nslookup -type=mx IP_ADDRESS
+
+TXT records are useful for multiple types of records like DKIM, SPF, etc.
+nslookup -type=txt DNS_NAME
+nslookup -type=txt IP_ADDRESS
+
+to enable Debug Mode will return verbose information like TTL.
+nslookup -debug DNS_NAME
+nslookup -debug IP_ADDRESS
