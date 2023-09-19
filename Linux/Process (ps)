@@ -1,9 +1,13 @@
 ps
+ps -a
+ps -d
 ps -e
 ps -ef
 ps -e -f
 ps -elf
 ps -aux
+ps -G GROUP_NAME
+ps --Group GROUP_NAME
 ps -u USER_NAME
 ps -u UID
 ps x
