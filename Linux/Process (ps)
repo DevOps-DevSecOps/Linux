@@ -6,6 +6,8 @@ ps -ef
 ps -e -f
 ps -elf
 ps -aux
+ps -g GROUP_ID
+ps --group GROUP_ID
 ps -G GROUP_NAME
 ps --Group GROUP_NAME
 ps -u USER_NAME
