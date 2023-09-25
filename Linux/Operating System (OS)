@@ -1,5 +1,8 @@
 $ uname
-$ uname -a
+$ uname -a                                                             # Show All System Info
+$ uname -r                                                             # Print the Kernel Release Number
+$ uname -v                                                             # Check Kernel Version
+$ uname -n                                                             # Print System Hostname
 $ uname -srm
 
 $ lsb_release -a
