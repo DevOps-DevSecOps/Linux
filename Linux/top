@@ -1,4 +1,4 @@
-top command is used for memory monitoring.
+top command is used for memory monitoring, processes and resource usage.
 To exit from top command need to press 'q'.
 
 top
