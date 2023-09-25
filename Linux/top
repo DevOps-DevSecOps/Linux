@@ -1,0 +1,11 @@
+top command is used for memory monitoring.
+To exit from top command need to press 'q'.
+
+top
+top -h
+top -b                                          # Batch Mode
+top -s                                          # Secure Mode
+top -u USER_NAME                                # Display Specific User Process
+top > FILE_NAME
+top -b > FILE_NAME
+sudo top
