@@ -1,13 +1,13 @@
 $ uname
+$ uname -a
+$ uname -srm
 
 $ lsb_release -a
 $ lsb_release -d
 $ lsb_release -sc
 
-$ cat /etc/lsb-release
-
-$ cat /etc/os-release
-
 $ cat /etc/issue
+$ cat /etc/os-release
+$ cat /etc/lsb-release
 
 $ hostnamectl
