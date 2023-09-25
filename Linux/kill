@@ -1,0 +1,27 @@
+kill command sends a signal to a process that terminates the process.
+If the user doesn’t specify any signal which is to be sent along with the kill command, then a default TERM signal is sent that terminates the process.
+
+syntax:-  [ kill SIGNAL_NAME PID_NO ]                           
+PID_NO = The `kill` command requires the process ID (PID) of the process we want to terminate.
+SIGNAL_NAME = We have to specify the custom signal and if we don’t specify the signal, the default signal 'TERM' is sent to terminate the process.
+
+kill PID_NO
+kill PID_NO PID_NO PID_NO
+
+SIGKILL has a signal number of '9'.
+kill -9 PID_NO
+$ kill -9 1212
+kill -SIGKILL PID_NO
+$ kill -SIGKILL 4321
+
+SIGTERM has a signal number of '15'.
+kill -15 PID_NO
+$ kill -15 4321
+kill -SIGTERM PID_NO
+$ kill -SIGTERM 1432
+
+kill -TERM PID_NO
+$ kill -TERM 1234
+
+To check signal name and number by using a command.
+kill -l                                                     # to display all the available signals names and numbers
