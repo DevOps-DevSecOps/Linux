@@ -4,6 +4,8 @@ base64 --help
 To encode the content and files.
 
 cat FILE_NAME.EXTENSION | base64
+#---------->EXAMPLE<----------#
+$ cat key.pub | base64
 
 echo CONTENT | base64
 echo 'CONTENT' | base64
@@ -17,8 +19,12 @@ echo -n "CONTENT" | base64
 $ echo -n 'hello world' | base64
 bXktc3RyaW5n                                                                    # output
 
-NAME=VALUE                                                                      # environment variable
-NAME="VALUE"                                                                    # environment variable
+VARIABLE_NAME=VALUE                                                             # environment variable
+VARIABLE_NAME="VALUE"                                                           # environment variable
+echo $VARIABLE_NAME | base64
+echo "$VARIABLE_NAME" | base64
+echo -n $VARIABLE_NAME | base64
+echo -n '$VARIABLE_NAME' | base64
 base64 $NAME
 
 base64 FILE_NAME
