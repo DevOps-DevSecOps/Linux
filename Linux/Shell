@@ -1,0 +1,23 @@
+A shell is a command-line interpreter program that parses and sends commands to the operating system.
+
+[Types]
+● Bourne Shell (sh)
+It was the first default shell on Unix systems.
+It location is /bin/sh. The prompt switches to $, while the root prompt is #.
+● GNU Bourne-Again Shell (bash)
+The location is /bin/bash. It prompt is $ for a regular user and # for root.
+● C Shell (csh)
+It location is /bin/csh. The prompt uses % for regular users and # for the root user.
+● Korn Shell (ksh)
+The location is in /bin/ksh or /bin/ksh93, while the prompt is the same as the Bourne shell ($ for a user and # for root).
+● Z Shell (zsh)
+It is the default shell of Kali Linux and Mac OS.
+It location is in /bin/zsh. The prompt is user@hostname location % for regular users and hostname# for the root user.
+
+SHELL                               PATH                      ROOT_USER               NONROOT_USER
+-----                               ----                      ---------               ------------
+Bourne shell (sh)	                /bin/sh and /sbin/sh	  #	                      $
+GNU Bourne-Again shell (bash)       /bin/bash                 bash-VersionNumber#     bash-VersionNumber$
+C shell (csh)	                    /bin/csh	              #	                      %
+Korn shell (ksh)	                /bin/ksh	              #	                      $
+Z Shell (zsh)	                    /bin/zsh	              <hostname>#	          <hostname>%
