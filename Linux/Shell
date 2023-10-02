@@ -14,10 +14,10 @@ The location is in /bin/ksh or /bin/ksh93, while the prompt is the same as the B
 It is the default shell of Kali Linux and Mac OS.
 It location is in /bin/zsh. The prompt is user@hostname location % for regular users and hostname# for the root user.
 
-SHELL                               PATH                      ROOT_USER               NONROOT_USER
------                               ----                      ---------               ------------
-Bourne shell (sh)	                /bin/sh and /sbin/sh	  #	                      $
-GNU Bourne-Again shell (bash)       /bin/bash                 bash-VersionNumber#     bash-VersionNumber$
-C shell (csh)	                    /bin/csh	              #	                      %
-Korn shell (ksh)	                /bin/ksh	              #	                      $
-Z Shell (zsh)	                    /bin/zsh	              <hostname>#	          <hostname>%
+SHELL                                PATH                        ROOT_USER                 NONROOT_USER
+-----                                ----                        ---------                 ------------
+Bourne shell (sh)                    /bin/sh and /sbin/sh        #                         $
+GNU Bourne-Again shell (bash)        /bin/bash                   bash-VersionNumber#       bash-VersionNumber$
+C shell (csh)                        /bin/csh                    #                         %
+Korn shell (ksh)                     /bin/ksh                    #                         $
+Z Shell (zsh)                        /bin/zsh                    <hostname>#               <hostname>%
