@@ -1,5 +1,19 @@
 A shell is a command-line interpreter program that parses and sends commands to the operating system.
 
+To list available valid login shells.
+$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/sh
+/bin/dash
+/usr/bin/dash
+/usr/bin/tmux
+/usr/bin/screen
+
 [Types]
 ● Bourne Shell (sh)
 It was the first default shell on Unix systems.
