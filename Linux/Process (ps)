@@ -15,3 +15,5 @@ ps -u UID
 ps x
 ps ax
 ps aux
+
+ps -ef | grep NAME
