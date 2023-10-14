@@ -1,3 +1,4 @@
 $ sudo -i                                                                       # root user
 $ sudo su                                                                       # root user
+$ sudo su -
 $ sudo su - USER_NAME
