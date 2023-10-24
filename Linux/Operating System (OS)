@@ -10,6 +10,7 @@ $ lsb_release -d
 $ lsb_release -sc
 
 $ cat /etc/issue
+$ cat /etc/*release
 $ cat /etc/os-release
 $ cat /etc/lsb-release
 
