@@ -7,3 +7,10 @@ Create a Certification Signing Request (CSR)
 ● CN - This will be set as username (USER_NAME).
 ● O - This is actually used as a group name by kubernetes while authenticating/authorizing users.
 $ openssl req -new -key FILE_NAME.pem -out FILE_NAME.pem -subj "/CN=USER_NAME/O=GROUP_NAME/O=GROUP_NAME"
+
+
+[Encode & Decode]
+echo -n "USER_NAME:PASSWORD" | openssl base64
+#--------------->EXAMPLE<---------------#
+$ echo -n "admin:passw0rd" | openssl base64
+YWRtaW46cGFzc3cwcmQ=
