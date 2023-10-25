@@ -13,6 +13,9 @@ $ echo $$                                                               # to rea
 
 ● $!
 Process ID (PID) of last command.
+$ echo $!
+$ echo $! > FILE_NAME
+$ echo $! > .FILE_NAME
 
 ● $?
 The exit status of the last command executed. 
