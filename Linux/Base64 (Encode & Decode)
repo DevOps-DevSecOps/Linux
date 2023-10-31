@@ -37,6 +37,7 @@ base64 /FOLDER_NAME/FILE_NAME.EXTENSION > FILE_NAME.EXTENSION                   
 To decode the content and files.
 
 echo ENCODE_OUTPUT_ID | base64 -d
+echo ENCODE_OUTPUT_ID | base64 --decode
 echo 'ENCODE_OUTPUT_ID' | base64 -d
 echo 'ENCODE_OUTPUT_ID' | base64 --decode
 echo "ENCODE_OUTPUT_ID" | base64 --decode
