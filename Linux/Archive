@@ -5,10 +5,8 @@ f:- file
 t:- list
 j:- bzip2
 
-[listing all files in archive]
-tar -tvf NAME.tar.gz
-
-[uncompress]
+[tar]
+tar -tvf NAME.tar.gz                                   # listing all files in archive
 tar xvf NAME.tar.gz
 tar -xf NAME.tar.gz
 tar xvzf NAME.tar.gz                                   # defaults files will be extracted into the current directory 
@@ -20,3 +18,6 @@ tar xvjf NAME.tar.bz2                                  # decompress a bzip2 file
 
 [gunzip]
 gunzip NAME.gz                                         # extract the .gz file without tar
+
+[zip & unzip]
+unzip NAME.zip                                         # extract the file
