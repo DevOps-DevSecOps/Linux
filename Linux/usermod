@@ -14,6 +14,10 @@ $ usermod -s /bin/bash USER_NAME
 $ usermod -s /sbin/nologin USER_NAME                                # disable a shell for the user
 $ usermod -u UID USER_NAME                                          # change the user id (UID) of a user 
 $ usermod -g GROUP_NAME USER_NAME                                   # adding Users into a Groups, -g = Primary group 
+$ usermod -a -G GROUP_NAME $USER
+  usermod -a -G docker $USER
 $ usermod -a -G GROUP_NAME USER_NAME                                # -G = Secondary group
+$ usermod -aG GROUP_NAME $USER
+  usermod -aG docker $USER
 $ usermod -aG GROUP_NAME USER_NAME
 $ usermod -a -G GROUP_NAME,GROUP_NAME,GROUP_NAME USER_NAME
