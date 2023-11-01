@@ -4,6 +4,6 @@ $ rmdir FOLDER_NAME1 FOLDER_NAME2 FOLDER_NAME3              # will delete only a
 $ rm /FOLDER_NAME/FILE_NAME
 $ rm -rf FILE_NAME
 $ rm -rf FILE_NAME*
-EG: rm -rf terraform.tfstate*
+  rm -rf terraform.tfstate*
 $ rm -rf FOLDER_NAME/*
 $ rm -rvf FOLDER_NAME                                       # will delete files inside directory and then last will delete directory
