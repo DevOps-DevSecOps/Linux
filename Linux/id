@@ -2,6 +2,7 @@ It is used to find out Users and Groups names and numeric ID’s (UID or GID) of
 
 id
 id USER_NAME                                # display UID no, GID no, Group name  
+id -u
 id -u USER_NAME                             # display UID no
 id -g USER_NAME                             # display GID no
 id -G USER_NAME                             # Print all Group ID’s
