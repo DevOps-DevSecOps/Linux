@@ -31,6 +31,7 @@ yum update
 yum update -y
 yum install PACKAGE_NAME
 yum install PACKAGE_NAME -y
+yum install PACKAGE_NAME PACKAGE_NAME -y
 sudo yum update
 sudo yum update -y
 sudo yum install PACKAGE_NAME
