@@ -21,3 +21,4 @@ gunzip NAME.gz                                         # extract the .gz file wi
 
 [zip & unzip]
 unzip NAME.zip                                         # extract the file
+unzip NAME.zip -d /FOLDER_NAME
