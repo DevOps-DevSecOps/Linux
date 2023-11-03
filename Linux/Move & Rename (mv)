@@ -9,9 +9,11 @@ $ mv Dir4 Folder4                 (The name of a directory should not be exist i
 
 mv FOLDER_NAME:original /FOLDER_NAME/FOLDER_NAME:rename
 
+mv /FOLDER_NAME/FOLDER_NAME:original FOLDER_NAME:rename
+
 mv FOLDER_NAME/FOLDER_NAME:original /FOLDER_NAME/FOLDER_NAME:rename
 
-mv /FOLDER_NAME/FOLDER_NAME:original FOLDER_NAME:rename
+mv /FOLDER_NAME/FOLDER_NAME:original /FOLDER_NAME/FOLDER_NAME:rename
 
 mv 'FOLDER_NAME' ../.
 
