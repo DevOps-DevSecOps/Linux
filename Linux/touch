@@ -1,5 +1,7 @@
 It is a way to create empty files.
 
 $ touch FILE_NAME
+$ touch FILE_NAME FILE_NAME
 $ touch FILE_NAME.EXTENSION
   touch FILE_NAME.sh
+$ touch -c FILE_NAME                                                  # will not create an empty file, if that file doesn't exist
