@@ -3,5 +3,5 @@ It is a short term for manual page.
 $ man COMMAND_NAME
   man ls
   man touch
-$ man -f COMMAND NAME
+$ man -f COMMAND_NAME
   man -f ls
