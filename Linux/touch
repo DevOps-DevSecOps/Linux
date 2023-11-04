@@ -1,0 +1,5 @@
+It is a way to create empty files.
+
+$ touch FILE_NAME
+$ touch FILE_NAME.EXTENSION
+  touch FILE_NAME.sh
