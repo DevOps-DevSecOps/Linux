@@ -12,3 +12,7 @@ $ chmod -rwx FOLDER_NAME
 $ chmod u+x ./FOLDER_NAME/FILE_NAME
 $ chmod u+x ./FOLDER_NAME/FILE_NAME.EXTENSION
   chmod u+x ./FOLDER_NAME/FILE_NAME.sh
+
+$ chmod 777 FILE_NAME
+$ chmod 777 FILE_NAME.EXTENSION
+  chmod 777 FILE_NAME.sh
