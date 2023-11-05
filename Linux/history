@@ -1,5 +1,24 @@
 It is used to view the previously executed command.
+The command history is stored in a file ".bash_history" in home directory.
+The . makes the file hidden. To view the hidden file by using a command "ls -a".
+
+$ ls -a
+.  ..  .bash_history  .bash_logout  .bash_profile  .bashrc
 
 $ history
-$ history NO                (to show the limited number of commands that executed previously)
-$ history -c                (whole history can be removed)
+  history
+    1  cd
+    2  cat /etc/*release
+    3  cd
+    4  docker
+    5  ...
+    ...
+    ...
+$ history NO                                    # list the last NO's of commands
+  history 5                                     # print the last 5 commands 
+$ history | grep NAME
+$ history | grep FILE_NAME
+$ history | grep COMMAND_NAME
+$ history -d LINE_NO                            # remove a particular line by using line number from the history
+  history -d 5                                  # remove a particular line no 5 from the history
+$ history -c                                    # whole history can be removed
