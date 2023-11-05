@@ -1,4 +1,5 @@
 $ ls -a
+$ ls -ltr
 $ ls -la /home/USER_NAME
 $ ls -la FOLDER_NAME
 
