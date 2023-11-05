@@ -1,9 +1,9 @@
 $ mkdir --help
 $ mkdir FOLDER_NAME
 $ mkdir FOLDER_NAME{NO..NO}
-EG: mkdir Dir{1..5}                                                 (will create 5 directories using No’s)  
+  mkdir Dir{1..5}                                                   # will create 5 directories using No’s  
 $ mkdir -v FOLDER_NAME
-$ mkdir -p FOLDER_NAME/FOLDER_NAME/FOLDER_NAME                      (create parent directories, check if directories exist OR not exist in location path)    
+$ mkdir -p FOLDER_NAME/FOLDER_NAME/FOLDER_NAME                      # create parent directories, check if directories exist OR not exist in location path    
 $ mkdir -pv FOLDER_NAME/FOLDER_NAME
 $ mkdir -p -v FOLDER_NAME/FOLDER_NAME
-$ mkdir -m a=rwx FOLDER_NAME                                        (permission for the created directories)
+$ mkdir -m a=rwx FOLDER_NAME                                        # permission for the created directories
