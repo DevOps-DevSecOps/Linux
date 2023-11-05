@@ -1,0 +1,4 @@
+It is used to print the number of processing units available in the system.
+
+$ nproc
+$ nproc --all
