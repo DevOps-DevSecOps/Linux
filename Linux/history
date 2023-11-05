@@ -19,6 +19,6 @@ $ history NO                                    # list the last NO's of commands
 $ history | grep NAME
 $ history | grep FILE_NAME
 $ history | grep COMMAND_NAME
-$ history -d LINE_NO                            # remove a particular line by using line number from the history
-  history -d 5                                  # remove a particular line no 5 from the history
+$ history -d LINE_NO                            # remove/delete a particular line by using line number from the history
+  history -d 5                                  # remove/delete a particular line no 5 from the history
 $ history -c                                    # whole history can be removed
