@@ -4,15 +4,21 @@ $ find . -empty                                         # find all empty folders
 $ find . -type f -empty
 $ find . -name FILE_NAME
 $ find . -type f -name FILE_NAME
-$ find . -type f -name "*.FORMAT"                       # EG:- [find . -type f -name "*.php"]
-$ find ./ -type f -name "*.FORMAT"                      # EG:- [find ./ -type f -name "*.txt"]
+$ find . -type f -name "*.FORMAT"                       
+  find . -type f -name "*.php"
+$ find ./ -type f -name "*.FORMAT"                      
+  find ./ -type f -name "*.txt"
 $ find ./FOLDER_NAME -empty                             # find all empty folders and files in the entered directory or sub-directories
 $ find ./FOLDER_NAME -name FILE_NAME
-$ find ./FOLDER_NAME -name *.FORMAT                     # EG:- [find ./FOLDER_NAME -name *.txt]
+$ find ./FOLDER_NAME -name *.FORMAT                     
+  find ./FOLDER_NAME -name *.txt
 $ find / -name FILE_NAME
+$ find / -name FILE_NAME*
+  find / -name java-11*
 $ find / -type d -name FOLDER_NAME
 $ find / -user USER_NAME -name FILE_NAME
-$ find /FOLDER_NAME -user USER_NAME                     # EG:- [$ find /home -user USER_NAME]
+$ find /FOLDER_NAME -user USER_NAME                     
+  find /home -user USER_NAME
 $ find /FOLDER_NAME -type f -empty
 $ find /FOLDER_NAME -type d -empty
 $ find /FOLDER_NAME -name FILE_NAME
