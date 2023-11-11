@@ -7,13 +7,14 @@ j:- bzip2
 
 [tar]
 tar -tvf NAME.tar.gz                                   # listing all files in archive
-tar xvf NAME.tar.gz
 tar -xf NAME.tar.gz
+tar -xvzf NAME.tar.gz
+tar -xvzf NAME.tar.gz FILE_NAME                        # to extract particular file from the tar
+tar -xvzf NAME.tar.gz FOLDER_NAME/FILE_NAME            # to extract particular file with folder from the tar
+tar xvf NAME.tar.gz
 tar xvzf NAME.tar.gz                                   # defaults files will be extracted into the current directory 
 tar xvzf NAME.tar.gz -C FOLDER_NAME                    # files will be extracted into the particular directory  
 tar xvzf NAME.tar.gz -C /FOLDER_NAME                   # files will be extracted into the particular directory
-tar -xvzf NAME.tar.gz FILE_NAME                        # to extract particular file from the tar
-tar -xvzf NAME.tar.gz FOLDER_NAME/FILE_NAME            # to extract particular file with folder from the tar 
 tar xvjf NAME.tar.bz2                                  # decompress a bzip2 file 
 
 [gunzip]
