@@ -1,0 +1,18 @@
+$ hostname -V                                               # version
+$ hostname --version
+$ hostname                                                  # display the system name
+$ hostname -a                                               # display all aliases of the host
+$ hostname -A
+$ hostname -i                                               # display the IP address of the host 127.0.0.1
+$ hostname -I                                               # get all IP address
+$ hostname HOST_NAME                                        # set the hostname of the system temporarily
+  hostname server
+$ sudo hostname HOST_NAME
+  sudo hostname DevOps
+
+[set the 'hostname' of the system permanently]
+Inside the file "/etc/hostname" using an editor and change hostname manually.
+$ nano /etc/hostname
+$ vi /etc/hostname
+AWS_GitDevSecOps
+Then save & quit the “/etc/hostname” file.
