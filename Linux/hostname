@@ -9,6 +9,10 @@ $ hostname HOST_NAME                                        # set the hostname o
   hostname server
 $ sudo hostname HOST_NAME
   sudo hostname DevOps
+$ hostnamectl set-hostname HOST_NAME
+  hostnamectl set-hostname GitOps
+$ sudo hostnamectl set-hostname HOST_NAME
+  sudo hostnamectl set-hostname DevSecOps
 
 [set the 'hostname' of the system permanently]
 Inside the file "/etc/hostname" using an editor and change hostname manually.
@@ -16,3 +20,6 @@ $ nano /etc/hostname
 $ vi /etc/hostname
 AWS_GitDevSecOps
 Then save & quit the “/etc/hostname” file.
+Then reboot the system, those changes happened in "/etc/hostname" will be reflected.
+$ hostname
+AWS_GitDevSecOps
