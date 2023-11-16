@@ -1,1 +1,31 @@
-$ chown
+It is used to change the file permissions for 'owner' and 'group'.
+
+$ chown USER_OWNER_NAME FILE_NAME
+  ls -l file1.txt
+  -rw-r--r-- 1 root root 12 Feb 4 12:04 file1.txt
+  chown master file1.txt
+  ls -l file1.txt
+  -rw-r--r-- 1 master root 12 Feb 4 12:04 file1.txt
+
+$ chown :GROUP_NAME FILE_NAME
+  chown :group1 file1.txt
+
+$ chown USER_OWNER_NAME:GROUP_NAME FILE_NAME
+  chown master:group1 file1.txt
+
+$ chown USER_OWNER_NAME:GROUP_NAME FILE_NAME FILE_NAME                # change ownership of multiple files
+  chown master:group file1 file2
+
+$ chown -c USER_OWNER_NAME FILE_NAME                                  # reports when a file change is made
+  chown -c master file1.txt
+
+$ chown -v USER_OWNER_NAME FILE_NAME                                  # show verbose information
+  chown -v master file1.txt
+
+$ chown -v :GROUP_NAME FILE_NAME
+  chown -v :group1 file1.txt
+
+$ chown -v USER_OWNER_NAME:GROUP_NAME FILE_NAME
+  chown -v master:group1 file2
+
+$ sudo chown -R USER_OWNER_NAME:GROUP_NAME /FOLDER_NAME/FOLDER_NAME
