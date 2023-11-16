@@ -1,5 +1,8 @@
+$ vim /FOLDER_NAME/FILE_NAME
 $ vim -R FILE_NAME
 $ vim -R /FOLDER_NAME/FILE_NAME
+
+$ sudo vim /FOLDER_NAME/FILE_NAME
 
 [to save the file need to execute sub-commands inside a file]
 :w!
