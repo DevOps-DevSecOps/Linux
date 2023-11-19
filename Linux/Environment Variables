@@ -76,8 +76,15 @@ Check the value of Environment Variables will be set for every user on host.
 $ echo $NAME
 VALUE
 This variable will be created on every shell for all users.
-● ".bash_profile"
+● ".bash_profile" file
 The ".bash_profile" file located in '/home/USER_NAME/.bash_profile'.
 $ nano /home/USER_NAME/.bash_profile
 $ vi /home/USER_NAME/.bash_profile
 NAME=VALUE
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$NAME
+Then save & quit the “.bash_profile” file.
+Command to refresh the “.bash_profile” file for the changes to be reflected.
+$ source .bash_profile
+Check the value of Environment Variables
+$ echo $NAME
+VALUE
