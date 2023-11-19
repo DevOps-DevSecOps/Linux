@@ -81,10 +81,13 @@ The ".bash_profile" file located in '/home/USER_NAME/.bash_profile'.
 $ nano /home/USER_NAME/.bash_profile
 $ vi /home/USER_NAME/.bash_profile
 NAME=VALUE
-PATH=$PATH:$HOME/.local/bin:$HOME/bin:$NAME
+KEY=VALUE
+PATH=$PATH:$HOME/.local/bin:$HOME/bin:$NAME:$KEY
 Then save & quit the “.bash_profile” file.
 Command to refresh the “.bash_profile” file for the changes to be reflected.
 $ source .bash_profile
 Check the value of Environment Variables
 $ echo $NAME
+VALUE
+$ echo $KEY
 VALUE
