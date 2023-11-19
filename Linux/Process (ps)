@@ -16,4 +16,5 @@ ps x
 ps ax
 ps aux
 
+ps | grep NAME
 ps -ef | grep NAME
