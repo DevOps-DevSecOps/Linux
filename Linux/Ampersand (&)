@@ -1,0 +1,5 @@
+The command executes in the background.
+
+$ COMMAND &
+  sleep 15 & 
+  cp -R FOLDER_NAME/FOLDER_NAME/ FOLDER_NAME/FOLDER_NAME/ &
