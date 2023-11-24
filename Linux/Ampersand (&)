@@ -3,4 +3,5 @@ The command executes in the background.
 $ COMMAND &
   sleep 15 & 
   npm start &
+  script.sh &
   cp -R FOLDER_NAME/FOLDER_NAME/ FOLDER_NAME/FOLDER_NAME/ &
