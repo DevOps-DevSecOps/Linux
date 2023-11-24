@@ -1,4 +1,3 @@
 $ nohup COMMAND & 
   nohup node server.js &
   nohup java -jar jenkins.war &
-  
