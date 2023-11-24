@@ -2,4 +2,5 @@ The command executes in the background.
 
 $ COMMAND &
   sleep 15 & 
+  npm start &
   cp -R FOLDER_NAME/FOLDER_NAME/ FOLDER_NAME/FOLDER_NAME/ &
