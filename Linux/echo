@@ -1,3 +1,6 @@
+$ echo "CONTENT"
+  echo "Hello World"
+
 $ NAME=VALUE 
 $ echo $NAME
 VALUE
