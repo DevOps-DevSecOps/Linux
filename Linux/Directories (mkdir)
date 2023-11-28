@@ -1,5 +1,6 @@
 $ mkdir --help
 $ mkdir FOLDER_NAME
+$ mkdir /FOLDER_NAME/FOLDER_NAME
 $ mkdir FOLDER_NAME{NO..NO}
   mkdir Dir{1..5}                                                   # will create 5 directories using No’s  
 $ mkdir -v FOLDER_NAME
