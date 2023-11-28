@@ -8,7 +8,8 @@ $ chmod +r FOLDER_NAME*
 $ chmod -wx FILE_NAME*
 $ chmod +rwx FILE_NAME
 $ chmod -rwx FOLDER_NAME
-
+$ chmod u+x FILE_NAME
+  chmod u+x FILE_NAME.sh
 $ chmod u+x ./FOLDER_NAME/FILE_NAME
 $ chmod u+x ./FOLDER_NAME/FILE_NAME.EXTENSION
   chmod u+x ./FOLDER_NAME/FILE_NAME.sh
