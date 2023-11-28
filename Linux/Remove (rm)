@@ -1,7 +1,9 @@
 $ rmdir FOLDER_NAME                                         # will delete only an empty folder
 $ rmdir -v FOLDER_NAME
 $ rmdir FOLDER_NAME1 FOLDER_NAME2 FOLDER_NAME3              # will delete only an empty folders
+$ rm FILE_NAME
 $ rm /FOLDER_NAME/FILE_NAME
+$ rm FILE_NAME /FOLDER_NAME/FILE_NAME
 $ rm -rf FILE_NAME
 $ rm -rf FILE_NAME*
   rm -rf terraform.tfstate*
