@@ -7,6 +7,8 @@ $ mv Dir1 Dir2                    (moving Dir1 folder into Dir2 folder)
 mv FOLDER_NAME:original FOLDER_NAME:rename
 $ mv Dir4 Folder4                 (The new name of a directory should not be exist in that current location path)
 
+mv -v FOLDER_NAME:original FOLDER_NAME:rename
+
 mv FOLDER_NAME:original /FOLDER_NAME/FOLDER_NAME:rename
 
 mv /FOLDER_NAME/FOLDER_NAME:original FOLDER_NAME:rename
