@@ -1,7 +1,7 @@
 ● $1 to $NO
 Passing no of arguments while execution a command.
 $1 is the first argument, $2 is second argument till $NO n’th arguments.
-From 10’th argument, must need to inclose them in braces like ${10}, ${11} and so on.
+From 10’th argument, must need to inclose them in braces like ${10}, ${11} and upto ${255}.
 
 ● $0
 The filename of the current script.
@@ -12,13 +12,13 @@ Process ID (PID) of the current shell.
 $ echo $$                                                               # to read the $$ variable
 
 ● $!
-Process ID (PID) of last command.
+Process ID (PID) of last executed command.
 $ echo $!
 $ echo $! > FILE_NAME
 $ echo $! > .FILE_NAME
 
 ● $?
-The exit status of the last command executed. 
+The exit status of last executed command. 
 0=success, any other NO=unsuccess
 $ echo $?                                                              # to read the $? variable
 
