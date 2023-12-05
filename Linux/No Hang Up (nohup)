@@ -1,4 +1,13 @@
+$ nohup --version
+
+$ nohup --help
+
 $ nohup COMMAND & 
   nohup script.sh &
+  nohup ping 8.8.8.8 &
   nohup node server.js &
   nohup java -jar jenkins.war &
+
+[It redirects the output to the ‘nohup.output’ file. This file will be created in the current working directory.]
+$ nohup ls
+$ nohup ls > FILE_NAME
