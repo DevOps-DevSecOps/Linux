@@ -5,17 +5,17 @@ mkswap -L LABEL_NAME /dev/sdb2
 swapon /swapfile
 swapon -v /dev/sdb2
 
+[To view all devices marked as a swap in the /etc/fstab file]
 swapon -a
-
 swapon --all
 
 swapon --show
 
+[To view a summary of swap space usage]
+swapon -s
 swapon --summary
 
-swapon -s
-
-swapoff -v /swapfile
-swapoff /dev/sdb2
-
 swapoff -a
+
+swapoff /dev/sdb2
+swapoff -v /swapfile
