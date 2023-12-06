@@ -8,6 +8,7 @@ $ nohup COMMAND &
   nohup node server.js &
   nohup java -jar jenkins.war &
 
-[It redirects the output to the ‘nohup.output’ file. This file will be created in the current working directory.]
+[By default, It redirects/writes the output to the ‘nohup.out’ file. This file will be created in the current working directory.]
 $ nohup ls
 $ nohup ls > FILE_NAME
+  nohup ls > list.out
