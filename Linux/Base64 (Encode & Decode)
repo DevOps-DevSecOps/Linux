@@ -25,7 +25,6 @@ echo $VARIABLE_NAME | base64
 echo "$VARIABLE_NAME" | base64
 echo -n $VARIABLE_NAME | base64
 echo -n '$VARIABLE_NAME' | base64
-base64 $NAME
 
 base64 FILE_NAME
 base64 FILE_NAME > FILE_NAME.EXTENSION                                          # to save the output in a file
