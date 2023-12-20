@@ -18,6 +18,7 @@ $ sudo hostnamectl set-hostname HOST_NAME
 Inside the file "/etc/hostname" using an editor and change hostname manually.
 $ nano /etc/hostname
 $ vi /etc/hostname
+$ sudo nano /etc/hostname
 AWS_GitDevSecOps
 Then save & quit the “/etc/hostname” file.
 Then reboot the system, those changes happened in "/etc/hostname" will be reflected.
