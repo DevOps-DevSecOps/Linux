@@ -15,6 +15,8 @@ echo "CONTENT" | base64 > FILE_NAME.EXTENSION                                   
 echo -n CONTENT | base64
 echo -n 'CONTENT' | base64
 echo -n "CONTENT" | base64
+echo -n "USER_NAME" | base64
+echo -n "PASSWORD" | base64
 #---------->EXAMPLE<----------#
 $ echo -n 'hello world' | base64
 bXktc3RyaW5n                                                                    # output
