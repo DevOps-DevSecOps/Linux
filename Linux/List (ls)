@@ -2,6 +2,7 @@ $ ls
 $ ls -R                                                             # to shows all the files in directories and subdirectories
 $ ls -a                                                             # to list the hidden files and directories
 $ ls -ltr
+$ ls -la ../
 $ ls -la /home/USER_NAME
 $ ls -la FOLDER_NAME
 
