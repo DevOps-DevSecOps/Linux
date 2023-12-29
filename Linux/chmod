@@ -5,6 +5,8 @@ $ chmod +x FILE_NAME.EXTENSION
   chmod +x FILE_NAME.sh
 $ chmod +x FOLDER_NAME/FILE_NAME
 $ chmod +r FOLDER_NAME*
+$ chmod -w FILE_NAME
+$ chmod +w FILE_NAME
 $ chmod -wx FILE_NAME*
 $ chmod +rwx FILE_NAME
 $ chmod -rwx FOLDER_NAME
