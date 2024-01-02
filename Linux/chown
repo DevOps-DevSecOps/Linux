@@ -28,6 +28,9 @@ $ chown -v :GROUP_NAME FILE_NAME
 $ chown -v USER_OWNER_NAME:GROUP_NAME FILE_NAME
   chown -v master:group1 file2
 
+$ chown -R USER_OWNER_NAME:GROUP_NAME /FOLDER_NAME/FOLDER_NAME
+  chown -R ubuntu:ubuntu /opt/Docker
+
 $ sudo chown USER_OWNER_NAME:GROUP_NAME FOLDER_NAME
 $ sudo chown -R USER_OWNER_NAME:GROUP_NAME /FOLDER_NAME
   sudo chown -R ubuntu:ubuntu /opt
