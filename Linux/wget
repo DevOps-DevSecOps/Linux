@@ -4,4 +4,5 @@ $ wget HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION
   wget HTTPS_URL_/FOLDER_NAME/FILE_NAME.zip
 $ wget -O FILE_NAME:rename HTTPS_URL_FILE_NAME:original                                                 # to saves the downloaded file on pc with the different specific name
 $ wget -P /FOLDER_NAME HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION                                       # to downloads a file in the specific directory
+$ wget --user=USER_NAME --ask-password HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION                       # prompt for passwords
 $ wget --user=USER_NAME --password=PASSWORD HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION                  # to download files with authenticated
