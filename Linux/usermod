@@ -1,6 +1,9 @@
 $ usermod -c "CUSTOM_COMMENT" USER_NAME                             # comment
-$ usermod -d /home/FOLDER_NAME USER_NAME                            # change the home directory of a user 
-$ usermod -d /home/FOLDER_NAME -m USER_NAME
+$ usermod -d /FOLDER_NAME/FOLDER_NAME USER_NAME                     # change the home directory of a user 
+  usermod -d /home/FOLDER_NAME USER_NAME
+$ usermod -d /FOLDER_NAME/FOLDER_NAME -m USER_NAME
+  usermod -d /home/FOLDER_NAME -m USER_NAME
+  usermod -d /var/FOLDER_NAME -m USER_NAME
 $ usermod -e 2025-01-21 USER_NAME                                   # change the expiry date of a user 
 $ usermod -e "" USER_NAME                                           # disable the expiration date for an User
 $ usermod -l USER_NAME:new USER_NAME:old                            # change username 
