@@ -1,4 +1,13 @@
-$ sudo -i                                                                       # root user
-$ sudo su                                                                       # root user
+$ su                                                                    # switch to root user
+$ su root
+$ su USER_NAME                                                          # switch to another user
+$ su -                                                                  # switch to root user
+$ su - USER_NAME                                                        # switch to another user
+
+$ sudo -i                                                               # root user
+$ sudo su                                                               # root user
 $ sudo su -
 $ sudo su - USER_NAME
+
+$ sudo -u root /bin/bash
+$ sudo -u USER_NAME /bin/bash
