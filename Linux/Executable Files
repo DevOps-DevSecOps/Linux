@@ -12,6 +12,8 @@ $ printenv PATH    (OR)    $ echo $PATH
 /usr/local/sbin
 
 So move an Executable files in a specific path location.
+$ mv FILE_NAME /bin
+$ mv /FOLDER_NAME/FILE_NAME /bin
 $ mv FOLDER_NAME/FILE_NAME /usr/local/bin/
 $ mv FOLDER_NAME/FILE_NAME /usr/local/bin/.
 $ mv -v FILE_NAME /usr/local/bin/
