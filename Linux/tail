@@ -8,6 +8,12 @@ $ tail -v FILE_NAME
 $ tail FILE_NAME FILE_NAME
 $ tail -q FILE_NAME FILE_NAME
 $ tail -f /FOLDER_NAME/FILE_NAME
+$ tail -f /FOLDER_NAME/FOLDER_NAME/FILE_NAME.EXTENSION
+  tail -f /opt/sonarqube/logs/sonar.log
+
+$ sudo tail -f /FOLDER_NAME/FOLDER_NAME/FILE_NAME.EXTENSION
+  sudo tail -f /opt/sonarqube/logs/sonar.log
+
 
 tail & sort with pipe - The 'tail & sort' command is generally used with pipe (|).
 
