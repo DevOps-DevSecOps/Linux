@@ -3,3 +3,5 @@ $ delgroup GROUP_NAME
 
 $ groupadd GROUP_NAME
 $ groupdel GROUP_NAME
+
+$ sudo groupadd GROUP_NAME
