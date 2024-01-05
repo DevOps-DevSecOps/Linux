@@ -1,0 +1,7 @@
+$ sudo mv /opt/sonarqube-9.9.0 /opt/sonarqube
+
+$ sudo groupadd sonar 
+
+$ sudo useradd -c "user to run SonarQube" -d /opt/sonarqube -g sonar sonar
+
+$ sudo chown sonar:sonar /opt/sonarqube -R
