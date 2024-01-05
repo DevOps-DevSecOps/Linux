@@ -20,6 +20,8 @@ $ userdel -r USER_NAME
 $ useradd -c "CUSTOM_COMMENT" -d /FOLDER_NAME/FOLDER_NAME -g GROUP_NAME USER_NAME
   useradd -c "user to run SonarQube" -d /opt/sonarqube -g sonar sonar
 
+$ sudo useradd -c "CUSTOM_COMMENT" -d /FOLDER_NAME/FOLDER_NAME -g GROUP_NAME USER_NAME
+
 $ adduser USER_NAME GROUP_NAME
 $ adduser --home /home/FOLDER_NAME USER_NAME
 $ deluser USER_NAME GROUP_NAME
