@@ -1,8 +1,12 @@
 $ cat FILE_NAME                                                         # view a single file
 $ cat FILE_NAME FILE_NAME                                               # view multiple files
+$ cat ~/.FOLDER_NAME/FILE_NAME
+  cat ~/.ssh/authorized_keys
 $ cat FILE_NAME FILE_NAME FILE_NAME > FILE_NAME                         # multiple files into one single file using the “>”
 $ cat FILE_NAME > /FOLDER_NAME/FILE_NAME                                 
 $ cat FILE_NAME >> FILE_NAME                                            # appending file into another existing file
+$ cat FILE_NAME >> ~/.FOLDER_NAME/FILE_NAME
+  cat id_rsa.pub >> ~/.ssh/authorized_keys
 $ cat > FILE_NAME                                                       # creating a file with text, Ctrl+d - save & exit, “>” - 1st time & overwrite
 $ cat >> FILE_NAME                                                      # appending text into existing file, Ctrl+d - save & exit
 $ cat -n FILE_NAME                                                      # display including empty lines  
