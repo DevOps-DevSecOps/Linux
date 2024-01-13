@@ -9,6 +9,8 @@ apt-get remove PACKAGE_NAME
 apt-get remove --auto-remove PACKAGE_NAME
 apt-get purge PACKAGE_NAME
 apt-get purge --auto-remove PACKAGE_NAME
+sudo apt update
+sudo apt upgrade
 sudo apt-get update
 sudo apt-get update -y
 sudo apt-get upgrade
