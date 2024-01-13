@@ -20,19 +20,20 @@ Custom Key
 $ ssh-keygen
 Enter file in which to save the key (/home/USER_NAME/.ssh/id_rsa): /home/USER_NAME/.ssh/KEY_NAME
 $ ssh-keygen -f KEY_NAME                                
-EG: ssh-keygen -f aws
+  ssh-keygen -f aws
 $ ssh-keygen -f .ssh/KEY_NAME
 $ ssh-keygen -f ~/.ssh/KEY_NAME
 $ ssh-keygen -f /home/USER_NAME/.ssh/KEY_NAME
 
 [Copy]
-ssh-copy-id HOSTNAME_IPADDRESS
-ssh-copy-id USER_NAME@HOSTNAME_IPADDRESS
-ssh-copy-id -i ~/.ssh/KEY_NAME USER_NAME@HOSTNAME_IPADDRESS
-ssh-copy-id -i ~/.ssh/KEY_NAME -p PORT_NO USER_NAME@HOSTNAME_IPADDRESS
+$ ssh-copy-id HOSTNAME_IPADDRESS
+$ ssh-copy-id USER_NAME@HOSTNAME_IPADDRESS
+$ ssh-copy-id -i ~/.ssh/KEY_NAME USER_NAME@HOSTNAME_IPADDRESS
+$ ssh-copy-id -i ~/.ssh/KEY_NAME -p PORT_NO USER_NAME@HOSTNAME_IPADDRESS
 
 [Remote]
-$ ssh USER_NAME@HOSTNAME_IPADDRESS
+$ ssh USER_NAME@HOSTNAME_IPADDRESS                                                              # it prompt the password
+  ssh jenkins@54.80.119.192
 $ ssh -i KEY_NAME USER_NAME@HOSTNAME_IPADDRESS
 $ ssh -i "KEY_NAME.pem" USER_NAME@HOSTNAME_IPADDRESS
 $ ssh -i FOLDER_NAME/KEY_NAME USER_NAME@HOSTNAME_IPADDRESS
