@@ -1,49 +1,49 @@
 [Advanced Package Tool (APT)]
-apt-get update
-apt-get upgrade
-apt-get upgrade --dry-run
-apt-get upgrade --yes
-apt-get install PACKAGE_NAME
-apt-get install -y PACKAGE_NAME
-apt-get remove PACKAGE_NAME
-apt-get remove --auto-remove PACKAGE_NAME
-apt-get purge PACKAGE_NAME
-apt-get purge --auto-remove PACKAGE_NAME
-sudo apt update
-sudo apt upgrade
-sudo apt install PACKAGE_NAME
-sudo apt-get update
-sudo apt-get update -y
-sudo apt-get upgrade
-sudo apt-get upgrade --dry-run
-sudo apt-get upgrade --yes
-sudo apt-get install PACKAGE_NAME
-sudo apt-get install -y PACKAGE_NAME
-sudo apt-get remove PACKAGE_NAME
-sudo apt-get remove --auto-remove PACKAGE_NAME
-sudo apt-get autoremove -y PACKAGE_NAME
-sudo apt-get autoremove --purge -y PACKAGE_NAME
-sudo apt-get purge PACKAGE_NAME
-sudo apt-get purge -y PACKAGE_NAME
-sudo apt-get purge --auto-remove PACKAGE_NAME
-sudo apt-get update && sudo apt-get upgrade
-sudo apt-get update && sudo apt-get upgrade -y
+$ apt-get update
+$ apt-get upgrade
+$ apt-get upgrade --dry-run
+$ apt-get upgrade --yes
+$ apt-get install PACKAGE_NAME
+$ apt-get install -y PACKAGE_NAME
+$ apt-get remove PACKAGE_NAME
+$ apt-get remove --auto-remove PACKAGE_NAME
+$ apt-get purge PACKAGE_NAME
+$ apt-get purge --auto-remove PACKAGE_NAME
+$ sudo apt update
+$ sudo apt upgrade
+$ sudo apt install PACKAGE_NAME
+$ sudo apt-get update
+$ sudo apt-get update -y
+$ sudo apt-get upgrade
+$ sudo apt-get upgrade --dry-run
+$ sudo apt-get upgrade --yes
+$ sudo apt-get install PACKAGE_NAME
+$ sudo apt-get install -y PACKAGE_NAME
+$ sudo apt-get remove PACKAGE_NAME
+$ sudo apt-get remove --auto-remove PACKAGE_NAME
+$ sudo apt-get autoremove -y PACKAGE_NAME
+$ sudo apt-get autoremove --purge -y PACKAGE_NAME
+$ sudo apt-get purge PACKAGE_NAME
+$ sudo apt-get purge -y PACKAGE_NAME
+$ sudo apt-get purge --auto-remove PACKAGE_NAME
+$ sudo apt-get update && sudo apt-get upgrade
+$ sudo apt-get update && sudo apt-get upgrade -y
 
 [Yellowdog Updater, Modified (YUM)]
-yum update
-yum update -y
-yum install PACKAGE_NAME
-yum install PACKAGE_NAME -y
-yum install PACKAGE_NAME PACKAGE_NAME -y
-sudo yum update
-sudo yum update -y
-sudo yum install PACKAGE_NAME
-sudo yum install PACKAGE_NAME -y
+$ yum update
+$ yum update -y
+$ yum install PACKAGE_NAME
+$ yum install PACKAGE_NAME -y
+$ yum install PACKAGE_NAME PACKAGE_NAME -y
+$ sudo yum update
+$ sudo yum update -y
+$ sudo yum install PACKAGE_NAME
+$ sudo yum install PACKAGE_NAME -y
 
 [Zypper Package Manager]
-zypper update
-zypper install PACKAGE_NAME
-zypper install PACKAGE_NAME -y
-sudo zypper update
-sudo zypper install PACKAGE_NAME
-sudo zypper install PACKAGE_NAME -y
+$ zypper update
+$ zypper install PACKAGE_NAME
+$ zypper install PACKAGE_NAME -y
+$ sudo zypper update
+$ sudo zypper install PACKAGE_NAME
+$ sudo zypper install PACKAGE_NAME -y
