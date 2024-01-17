@@ -18,3 +18,4 @@ $ mv FOLDER_NAME/FILE_NAME /usr/local/bin/
 $ mv FOLDER_NAME/FILE_NAME /usr/local/bin/.
 $ mv -v FILE_NAME /usr/local/bin/
 $ mv -v FILE_NAME:original /usr/local/bin/FILE_NAME:rename
+$ sudo mv /FOLDER_NAME/FILE_NAME /bin
