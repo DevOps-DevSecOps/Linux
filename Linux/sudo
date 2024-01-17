@@ -11,3 +11,6 @@ $ sudo su - USER_NAME
 
 $ sudo -u root /bin/bash
 $ sudo -u USER_NAME /bin/bash
+
+$ sudo install -o USER_OWNER_NAME -g GROUP_NAME -m 0755 FILE_NAME /FOLDER_NAME/FOLDER_NAME/FILE_NAME
+  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
