@@ -6,21 +6,22 @@ t:- list
 j:- bzip2
 
 [tar]
-tar -tvf NAME.tar.gz                                   # listing all files in archive
-tar -xf NAME.tar.gz
-tar -xvzf NAME.tar.gz
-tar -xvzf NAME.tar.gz FILE_NAME                        # to extract particular file from the tar
-tar -xvzf NAME.tar.gz FOLDER_NAME/FILE_NAME            # to extract particular file with folder from the tar
-tar xvf NAME.tar.gz
-tar xvzf NAME.tar.gz                                   # defaults files will be extracted into the current directory 
-tar xvzf NAME.tar.gz -C FOLDER_NAME                    # files will be extracted into the particular directory  
-tar xvzf NAME.tar.gz -C /FOLDER_NAME                   # files will be extracted into the particular directory
-tar xvzf NAME.tar.gz -C /FOLDER_NAME/FOLDER_NAME
-tar xvjf NAME.tar.bz2                                  # decompress a bzip2 file 
+$ tar -tvf NAME.tar.gz                                   # listing all files in archive
+$ tar -xf NAME.tar.gz
+$ tar -xvzf NAME.tar.gz
+$ tar -xvzf NAME.tar.gz FILE_NAME                        # to extract particular file from the tar
+$ tar -xvzf NAME.tar.gz FOLDER_NAME/FILE_NAME            # to extract particular file with folder from the tar
+$ tar xvf NAME.tar.gz
+$ tar xvzf NAME.tar.gz                                   # defaults files will be extracted into the current directory 
+$ tar xvzf NAME.tar.gz -C FOLDER_NAME                    # files will be extracted into the particular directory  
+$ tar xvzf NAME.tar.gz -C /FOLDER_NAME                   # files will be extracted into the particular directory
+$ tar xvzf NAME.tar.gz -C /FOLDER_NAME/FOLDER_NAME
+$ tar xvjf NAME.tar.bz2                                  # decompress a bzip2 file 
 
 [gunzip]
-gunzip NAME.gz                                         # extract the .gz file without tar
+$ gunzip NAME.gz                                         # extract the .gz file without tar
 
 [zip & unzip]
-unzip NAME.zip                                         # extract the file
-unzip NAME.zip -d /FOLDER_NAME
+$ unzip NAME.zip                                         # extract the file
+$ unzip NAME.zip -d /FOLDER_NAME                         # extract the file into a particular specific directory/folder
+$ sudo unzip NAME.zip -d /FOLDER_NAME
