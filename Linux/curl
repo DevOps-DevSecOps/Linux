@@ -14,3 +14,6 @@ $ curl -u USER_NAME:PASSWORD -o FILE_NAME:rename HTTPS_URL_/FOLDER_NAME/FILE_NAM
 $ curl -O HTTPS_URL_FILE_NAME                                                   # to downloads the file and saves it with the same original name as in the URL
 $ curl -o FILE_NAME:rename HTTPS_URL_FILE_NAME:original                         # to saves the downloaded file on pc with the specific name
 $ curl -o "HTTPS_URL_FILE_NAME:original" "FILE_NAME:rename"
+$ curl -s --location -o /FOLDER_NAME/FOLDER_NAME/FOLDER_NAME/FILE_NAME:rename HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION:original
+  curl -s --location -o /usr/local/bin/argocd https://github.com/argoproj/argo-cd/releases/latest/download/argocd-linux-amd64
+$ curl --silent --location -o /FOLDER_NAME/FOLDER_NAME/FOLDER_NAME/FILE_NAME:rename HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION:original
