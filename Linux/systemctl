@@ -7,3 +7,8 @@ $ systemctl enable SERVICE_NAME
 $ systemctl disable SERVICE_NAME
 
 $ systemctl enable SERVICE_NAME.service
+
+$ sudo systemctl start SERVICE_NAME
+$ sudo systemctl stop SERVICE_NAME
+$ sudo systemctl status SERVICE_NAME
+$ sudo systemctl enable SERVICE_NAME
