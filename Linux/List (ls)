@@ -1,4 +1,6 @@
 $ ls
+$ ls ../
+$ ls ../FOLDER_NAME/
 $ ls -R                                                             # to shows all the files in directories and subdirectories
 $ ls -a                                                             # to list the hidden files and directories
 $ ls -ltr
