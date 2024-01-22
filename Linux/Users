@@ -1,3 +1,9 @@
+User account information will be stored in "/etc/passwd".
+$ cat /etc/passwd
+$ cat /etc/passwd | grep NAME
+  cat /etc/passwd | grep ubuntu                                   # ubuntu is a username 
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+
 $ useradd --help
 $ useradd USER_NAME                                               # the user’s home directory is not created  
 $ useradd -m USER_NAME                                            # adding new user with create home directory, -m (--create-home) option to create the user home directory as /home/USER_NAME
