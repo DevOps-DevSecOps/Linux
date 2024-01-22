@@ -11,11 +11,11 @@ $ ls -la FOLDER_NAME
 
 [ls & head with pipe - The 'ls & head' command is generally used with pipe (|)]
 $ ls -t | head -n NO
-EG: ls -t | head -n 3
+  ls -t | head -n 3
 
 [ls & head & sort with pipe - The 'ls & head & sort' command is generally used with pipe (|)]
 $ ls -t | head -n NO | sort
-EG: ls -t | head -n 3 | sort
+  ls -t | head -n 3 | sort
 
 [ls & grep with pipe - The 'ls & grep' command is generally used with pipe (|)]
 $ ls FOLDER_NAME | grep FILE_NAME
