@@ -1,7 +1,10 @@
 User account information will be stored in "/etc/passwd".
 $ cat /etc/passwd
+$ cat /etc/passwd | grep NO 
+  cat /etc/passwd | grep 1000                                     # 1000 is a UID
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
 $ cat /etc/passwd | grep NAME
-  cat /etc/passwd | grep ubuntu                                   # ubuntu is a username 
+  cat /etc/passwd | grep ubuntu                                   # ubuntu is a USER_NAME 
 ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
 
 $ useradd --help
