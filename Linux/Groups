@@ -1,3 +1,12 @@
+Group account information will be stored in "/etc/group".
+$ cat /etc/group
+$ cat /etc/group | grep NO
+  cat /etc/group | grep 999
+docker:x:999:ubuntu                                                         # ubuntu user is added to docker group
+$ cat /etc/group | grep NAME
+  cat /etc/group | grep docker
+docker:x:999:ubuntu
+
 $ addgroup GROUP_NAME
 $ delgroup GROUP_NAME
 
