@@ -1,9 +1,16 @@
 It is used to view the previously executed command.
-The command history is stored in a file ".bash_history" in home directory.
+The command history is stored in a file ".bash_history" in home directory "/home/USER_NAME".
 The . makes the file hidden. To view the hidden file by using a command "ls -a".
 
-$ ls -a
+$ ls -a /home/USER_NAME
+  ls -a /home/ubuntu
+  ls -a /home/ec2-user
 .  ..  .bash_history  .bash_logout  .bash_profile  .bashrc
+
+$ cat .bash_history
+$ cat $HOME/.bash_history
+$ cat /home/USER_NAME/.bash_history
+  cat /home/ec2-user/.bash_history
 
 $ history
   history
