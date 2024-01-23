@@ -1,0 +1,32 @@
+$ cat File.txt 
+DevSecOps
+0123456789
+GitOps
+9876543210
+Azure
+T.ArunTheja
+
+$ cat File.txt | grep 4
+0123456789
+9876543210
+
+$ cat File.txt | grep 56
+0123456789
+
+$ cat File.txt | grep 65
+9876543210
+
+$ cat File.txt | grep n
+T.ArunTheja
+
+$ cat File.txt | grep s
+DevSecOps
+GitOps
+
+$ cat File.txt | grep e
+DevSecOps
+Azure
+T.ArunTheja
+
+$ cat File.txt | grep "Azure"
+Azure
