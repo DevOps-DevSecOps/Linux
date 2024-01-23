@@ -15,5 +15,11 @@ $ cat -b FILE_NAME                                                      # displa
 cat & grep with pipe - The 'cat & grep' command is generally used with pipe (|).
 
 $ cat FILE_NAME | grep NO
-$ cat FILE_NAME | grep WORD_NAME
 $ cat FILE_NAME | grep LETTER
+$ cat FILE_NAME | grep NAME
+$ cat FILE_NAME.EXTENSION | grep 'NO'
+$ cat FILE_NAME.EXTENSION | grep 'LETTER'
+$ cat FILE_NAME.EXTENSION | grep 'NAME'
+$ cat FILE_NAME.EXTENSION | grep "NO"
+$ cat FILE_NAME.EXTENSION | grep "LETTER"
+$ cat FILE_NAME.EXTENSION | grep "NAME"
