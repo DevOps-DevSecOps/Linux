@@ -10,5 +10,5 @@ $ nohup COMMAND &
 
 [By default, It redirects/writes the output to the ‘nohup.out’ file. This file will be created in the current working directory.]
 $ nohup ls
-$ nohup ls > FILE_NAME
-  nohup ls > list.out
+$ nohup ls > FILE_NAME                                    # redirects/writes the output into the custom file
+  nohup ls > list.out                                     # redirects/writes the output into the list.out file
