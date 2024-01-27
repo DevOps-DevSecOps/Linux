@@ -1,0 +1,4 @@
+################################--EXAMPLE_1--################################
+
+$ sudo usermod -aG docker $USER
+$ newgrp docker
