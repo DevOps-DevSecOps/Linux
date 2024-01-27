@@ -1,4 +1,5 @@
 $ cd FOLDER_NAME
 $ cd ~USER_NAME
   cd ~ubuntu 
+$ cd ..
 $ cd ../                                                                        # one step back
