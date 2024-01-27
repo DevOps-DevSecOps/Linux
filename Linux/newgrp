@@ -1,0 +1,2 @@
+$ newgrp GROUP_NAME
+  newgrp docker
