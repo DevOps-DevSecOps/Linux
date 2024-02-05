@@ -1,3 +1,6 @@
+[Systemd Service File]
+To create a systemd service file "/etc/systemd/system/SERVICE_FILE_NAME.service"  (replace the SERVICE_FILE_NAME.service with your service file name).
+
 $ systemctl start SERVICE_NAME
 $ systemctl stop SERVICE_NAME
 $ systemctl restart SERVICE_NAME
