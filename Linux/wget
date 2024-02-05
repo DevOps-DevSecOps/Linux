@@ -2,6 +2,8 @@ $ wget --help
 $ wget HTTPS_URL_/FOLDER_NAME/FILE_NAME
 $ wget HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION
   wget HTTPS_URL_/FOLDER_NAME/FILE_NAME.zip
+$ wget HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION:original -O /FOLDER_NAME/FILE_NAME.EXTENSION:rename
+  wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.85/bin/apache-tomcat-9.0.85.tar.gz -O /tmp/tomcat-9.tar.gz
 $ wget -O FILE_NAME:rename HTTPS_URL_FILE_NAME:original                                                 # to saves the downloaded file on pc with the different specific name
 $ wget -P /FOLDER_NAME HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION                                       # to downloads a file in the specific directory
 $ wget --user=USER_NAME --ask-password HTTPS_URL_/FOLDER_NAME/FILE_NAME.EXTENSION                       # prompt for passwords
