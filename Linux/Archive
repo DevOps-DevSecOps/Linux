@@ -10,13 +10,15 @@ $ tar -tvf NAME.tar.gz                                   # listing all files in 
 $ tar -xf NAME.tar.gz
 $ tar -xvzf NAME.tar.gz
 $ tar -xvzf NAME.tar.gz FILE_NAME                        # to extract particular file from the tar
-$ tar -xvzf NAME.tar.gz FOLDER_NAME/FILE_NAME            # to extract particular file with folder from the tar
+$ tar -xvzf NAME.tar.gz FOLDER_NAME/FILE_NAME            # to extract particular file with in folder from the tar
 $ tar xvf NAME.tar.gz
 $ tar xvzf NAME.tar.gz                                   # defaults files will be extracted into the current directory 
 $ tar xvzf NAME.tar.gz -C FOLDER_NAME                    # files will be extracted into the particular directory  
 $ tar xvzf NAME.tar.gz -C /FOLDER_NAME                   # files will be extracted into the particular directory
 $ tar xvzf NAME.tar.gz -C /FOLDER_NAME/FOLDER_NAME
 $ tar xvjf NAME.tar.bz2                                  # decompress a bzip2 file 
+$ sudo -u USER_NAME tar -xzvf /FOLDER_NAME/NAME.tar.gz -C /FOLDER_NAME/FOLDER_NAME
+  sudo -u ubuntu tar -xzvf /tmp/tomcat-9.tar.gz -C /opt/tomcat
 
 [gunzip]
 $ gunzip NAME.gz                                         # extract the .gz file without tar
