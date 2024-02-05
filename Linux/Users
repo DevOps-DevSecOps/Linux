@@ -26,6 +26,7 @@ $ useradd -s /bin/sh USER_NAME                                    # adding new u
 $ useradd -ms /bin/bash USER_NAME                                 # adding new user with create home directory, shell
 $ userdel -r USER_NAME
 
+$ useradd -m -d /FOLDER_NAME/FOLDER_NAME -U -s /bin/bash USER_NAME                          # -U=create a group with the same name as the user and add the user to this group
 $ useradd -c "CUSTOM_COMMENT" -d /FOLDER_NAME/FOLDER_NAME -g GROUP_NAME USER_NAME
   useradd -c "user to run SonarQube" -d /opt/sonarqube -g sonar sonar
 
