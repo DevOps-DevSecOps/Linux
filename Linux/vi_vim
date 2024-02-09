@@ -1,3 +1,6 @@
+$ sudo -u USER_NAME vi /FOLDER_NAME/USER_NAME_FOLDER_NAME/.FOLDER_NAME/FILE_NAME
+  sudo -u ubuntu vi /home/ubuntu/.ssh/authorized_keys
+
 $ vim /FOLDER_NAME/FILE_NAME
 $ vim -R FILE_NAME
 $ vim -R /FOLDER_NAME/FILE_NAME
