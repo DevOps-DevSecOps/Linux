@@ -8,3 +8,7 @@ $ mkdir -p FOLDER_NAME/FOLDER_NAME/FOLDER_NAME                      # create par
 $ mkdir -pv FOLDER_NAME/FOLDER_NAME
 $ mkdir -p -v FOLDER_NAME/FOLDER_NAME
 $ mkdir -m a=rwx FOLDER_NAME                                        # permission for the created directories
+
+$ sudo -u USER_NAME mkdir /FOLDER_NAME/FOLDER_NAME/.FOLDER_NAME
+  sudo -u ubuntu mkdir /home/ubuntu/.ssh
+  
