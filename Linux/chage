@@ -15,3 +15,6 @@ $ chage -m NO -M NO USER_NAME                                                  #
   chage -m 7 -M 60 root
 $ sudo chage -m NO -M NO USER_NAME
 
+$ chage -W NO USER_NAME                                                        # warning before the password expires
+  chage -W 2 root
+$ sudo chage -W NO USER_NAME
