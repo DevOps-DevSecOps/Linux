@@ -1,0 +1,21 @@
+It is a firewall configuration tool that runs on top of iptables.
+
+$ sudo ufw status
+Status: inactive
+
+$ sudo ufw enable
+Firewall is active and enabled on system startup
+
+$ sudo ufw status
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), deny (routed)
+New profiles: skip
+
+$ sudo ufw allow 22
+$ sudo ufw allow ssh
+$ sudo ufw allow http
+$ sudo ufw allow https
+$ sudo ufw allow OpenSSH
+
+$ sudo ufw disable
