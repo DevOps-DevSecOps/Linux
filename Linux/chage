@@ -3,6 +3,9 @@ It is used to view and change the user password expiry information.
 $ chage -l USER_NAME                                                           # view the account aging information
 $ sudo chage -l USER_NAME
 
+$ chage USER_NAME                                                              # it will ask you each field one by one
+$ sudo chage USER_NAME
+
 $ chage -d YEAR-MONTH-DATE USER_NAME                                           # set the last password change date to specified date in the command, modify the expiry date
   chage -d 2018-12-01 root
 $ sudo chage -d YEAR-MONTH-DATE USER_NAME
